@@ -1,0 +1,424 @@
+{
+  "analysis_type": "closeness_centrality_removal",
+  "network_info": {
+    "total_nodes": 675,
+    "total_edges": 3434,
+    "analysis_timestamp": "2025-11-13T22:09:34.112461"
+  },
+  "top_hubs": [
+    {
+      "rank": 1,
+      "node_id": "SJVP_MMTS",
+      "closeness_centrality": 0.17282051282051283,
+      "degree": 6,
+      "layer": "mmts",
+      "name": "SANJEEVAIAH PARK"
+    },
+    {
+      "rank": 2,
+      "node_id": "Bus_Begumpet",
+      "closeness_centrality": 0.17150127226463105,
+      "degree": 9,
+      "layer": "bus",
+      "name": "Begumpet Bus Hub"
+    },
+    {
+      "rank": 3,
+      "node_id": "BMT_MMTS",
+      "closeness_centrality": 0.1671626984126984,
+      "degree": 4,
+      "layer": "mmts",
+      "name": "BEGUMPET"
+    },
+    {
+      "rank": 4,
+      "node_id": "SC_MMTS",
+      "closeness_centrality": 0.1645106175250183,
+      "degree": 33,
+      "layer": "mmts",
+      "name": "SECUNDERABAD"
+    },
+    {
+      "rank": 5,
+      "node_id": "JET_MMTS",
+      "closeness_centrality": 0.16367168528411852,
+      "degree": 6,
+      "layer": "mmts",
+      "name": "JAMES STREET"
+    },
+    {
+      "rank": 6,
+      "node_id": "HYB_MMTS",
+      "closeness_centrality": 0.1636319495023064,
+      "degree": 21,
+      "layer": "mmts",
+      "name": "HYDERABAD"
+    },
+    {
+      "rank": 7,
+      "node_id": "Bus_Musheerabad",
+      "closeness_centrality": 0.16311713455953533,
+      "degree": 10,
+      "layer": "bus",
+      "name": "Musheerabad Bus Hub"
+    },
+    {
+      "rank": 8,
+      "node_id": "LKPL_MMTS",
+      "closeness_centrality": 0.16159194437784705,
+      "degree": 20,
+      "layer": "mmts",
+      "name": "LAKDIKAPUL"
+    },
+    {
+      "rank": 9,
+      "node_id": "Bus_feeder_AME_Metro_1",
+      "closeness_centrality": 0.16128260349365878,
+      "degree": 14,
+      "layer": "bus",
+      "name": "Bus near Ameerpet"
+    },
+    {
+      "rank": 10,
+      "node_id": "Bus_feeder_SCR_Metro_3",
+      "closeness_centrality": 0.15937573894537715,
+      "degree": 14,
+      "layer": "bus",
+      "name": "Bus near Secunderabad West"
+    },
+    {
+      "rank": 11,
+      "node_id": "Auto_R3_16",
+      "closeness_centrality": 0.1588124410933082,
+      "degree": 8,
+      "layer": "auto",
+      "name": "Auto Stand R3-16"
+    },
+    {
+      "rank": 12,
+      "node_id": "Bus_feeder_GNH_Metro_3",
+      "closeness_centrality": 0.15843911612599906,
+      "degree": 15,
+      "layer": "bus",
+      "name": "Bus near Gandhi Hospital"
+    },
+    {
+      "rank": 13,
+      "node_id": "Auto_R3_56",
+      "closeness_centrality": 0.1584018801410106,
+      "degree": 7,
+      "layer": "auto",
+      "name": "Auto Stand R3-56"
+    },
+    {
+      "rank": 14,
+      "node_id": "Bus_Panjagutta",
+      "closeness_centrality": 0.15736633201027317,
+      "degree": 13,
+      "layer": "bus",
+      "name": "Panjagutta Bus Hub"
+    },
+    {
+      "rank": 15,
+      "node_id": "Bus_feeder_PUN_Metro_0",
+      "closeness_centrality": 0.15707294336984387,
+      "degree": 12,
+      "layer": "bus",
+      "name": "Bus near Panjagutta"
+    }
+  ],
+  "removal_analysis": {
+    "removal_sequence": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "avg_clustering": [
+      0.5252254095569225,
+      0.5260533509262183,
+      0.5268156557305715,
+      0.5271440263966853,
+      0.5273358893486269,
+      0.5277882090070076,
+      0.5286059531349596,
+      0.5284922523360264,
+      0.5286897388954935,
+      0.5288138898244419,
+      0.529458498618163,
+      0.5298408155358223,
+      0.5312418123079595,
+      0.5310651311117113,
+      0.530860660590447
+    ],
+    "avg_betweenness": [
+      0.012071338603739261,
+      0.012293249788073559,
+      0.013255139567226673,
+      0.013376322759569,
+      0.013404059961196675,
+      0.013723596567495907,
+      0.013767897569260366,
+      0.013825059291799608,
+      0.013856679852241044,
+      0.013885658648611394,
+      0.013919397841259097,
+      0.01395092969189872,
+      0.014038456238089681,
+      0.014069563701449912,
+      0.014105903997099553
+    ],
+    "avg_closeness": [
+      0.11462898628143924,
+      0.1127296436579043,
+      0.10460993831235048,
+      0.10388301351705018,
+      0.10382575035693152,
+      0.10160669555328575,
+      0.10142223724911356,
+      0.10115292123456636,
+      0.10107295500072529,
+      0.10101558828142913,
+      0.10091875834694229,
+      0.10084079404852997,
+      0.10033817439466466,
+      0.10026909740241723,
+      0.10015902274212715
+    ],
+    "avg_degree": [
+      10.172106824925816,
+      10.163447251114412,
+      10.166666666666666,
+      10.086438152011922,
+      10.08955223880597,
+      10.044843049327355,
+      10.035928143712574,
+      9.994002998500749,
+      9.96996996996997,
+      9.95187969924812,
+      9.94578313253012,
+      9.92156862745098,
+      9.921450151057401,
+      9.903177004538579,
+      9.89090909090909
+    ],
+    "avg_time": [
+      6.004049484555475,
+      5.997349612566377,
+      5.994349090694957,
+      5.969881717497601,
+      5.966629301031681,
+      5.947872487886876,
+      5.945004709765558,
+      5.938379455106354,
+      5.93763047556542,
+      5.93930150595547,
+      5.937159310937503,
+      5.93779354689319,
+      5.9351509335861765,
+      5.939499629947113,
+      5.9391274097134445
+    ],
+    "avg_cost": [
+      14.883994743550966,
+      14.904121444665195,
+      14.914615976020947,
+      15.047773790218823,
+      15.065581806538606,
+      15.152023909566532,
+      15.174321649808126,
+      15.25878994540599,
+      15.30583202198013,
+      15.345178940843375,
+      15.299042270581444,
+      15.345975288424002,
+      15.315370231021419,
+      15.35396610477237,
+      15.386981213113904
+    ],
+    "num_components": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "largest_component_size": [
+      674,
+      673,
+      672,
+      671,
+      670,
+      669,
+      668,
+      667,
+      666,
+      665,
+      664,
+      663,
+      662,
+      661,
+      660
+    ],
+    "network_efficiency": [
+      0.1576632961300422,
+      0.15595927536274332,
+      0.14929794902887517,
+      0.14820929630020582,
+      0.1481869176960521,
+      0.14632557737099477,
+      0.14616834389542238,
+      0.1459038356792696,
+      0.1457970318143848,
+      0.1457342569873953,
+      0.14563369543292085,
+      0.14552856504828673,
+      0.14510367704299795,
+      0.1450119044491842,
+      0.1449024949682354
+    ],
+    "hub_details": [
+      {
+        "rank": 1,
+        "hub_id": "SJVP_MMTS",
+        "name": "SANJEEVAIAH PARK",
+        "layer": "mmts",
+        "original_degree": 6,
+        "composite_score": 0.17282051282051283
+      },
+      {
+        "rank": 2,
+        "hub_id": "Bus_Begumpet",
+        "name": "Begumpet Bus Hub",
+        "layer": "bus",
+        "original_degree": 9,
+        "composite_score": 0.17150127226463105
+      },
+      {
+        "rank": 3,
+        "hub_id": "BMT_MMTS",
+        "name": "BEGUMPET",
+        "layer": "mmts",
+        "original_degree": 4,
+        "composite_score": 0.1671626984126984
+      },
+      {
+        "rank": 4,
+        "hub_id": "SC_MMTS",
+        "name": "SECUNDERABAD",
+        "layer": "mmts",
+        "original_degree": 33,
+        "composite_score": 0.1645106175250183
+      },
+      {
+        "rank": 5,
+        "hub_id": "JET_MMTS",
+        "name": "JAMES STREET",
+        "layer": "mmts",
+        "original_degree": 6,
+        "composite_score": 0.16367168528411852
+      },
+      {
+        "rank": 6,
+        "hub_id": "HYB_MMTS",
+        "name": "HYDERABAD",
+        "layer": "mmts",
+        "original_degree": 21,
+        "composite_score": 0.1636319495023064
+      },
+      {
+        "rank": 7,
+        "hub_id": "Bus_Musheerabad",
+        "name": "Musheerabad Bus Hub",
+        "layer": "bus",
+        "original_degree": 10,
+        "composite_score": 0.16311713455953533
+      },
+      {
+        "rank": 8,
+        "hub_id": "LKPL_MMTS",
+        "name": "LAKDIKAPUL",
+        "layer": "mmts",
+        "original_degree": 20,
+        "composite_score": 0.16159194437784705
+      },
+      {
+        "rank": 9,
+        "hub_id": "Bus_feeder_AME_Metro_1",
+        "name": "Bus near Ameerpet",
+        "layer": "bus",
+        "original_degree": 14,
+        "composite_score": 0.16128260349365878
+      },
+      {
+        "rank": 10,
+        "hub_id": "Bus_feeder_SCR_Metro_3",
+        "name": "Bus near Secunderabad West",
+        "layer": "bus",
+        "original_degree": 14,
+        "composite_score": 0.15937573894537715
+      },
+      {
+        "rank": 11,
+        "hub_id": "Auto_R3_16",
+        "name": "Auto Stand R3-16",
+        "layer": "auto",
+        "original_degree": 8,
+        "composite_score": 0.1588124410933082
+      },
+      {
+        "rank": 12,
+        "hub_id": "Bus_feeder_GNH_Metro_3",
+        "name": "Bus near Gandhi Hospital",
+        "layer": "bus",
+        "original_degree": 15,
+        "composite_score": 0.15843911612599906
+      },
+      {
+        "rank": 13,
+        "hub_id": "Auto_R3_56",
+        "name": "Auto Stand R3-56",
+        "layer": "auto",
+        "original_degree": 7,
+        "composite_score": 0.1584018801410106
+      },
+      {
+        "rank": 14,
+        "hub_id": "Bus_Panjagutta",
+        "name": "Panjagutta Bus Hub",
+        "layer": "bus",
+        "original_degree": 13,
+        "composite_score": 0.15736633201027317
+      },
+      {
+        "rank": 15,
+        "hub_id": "Bus_feeder_PUN_Metro_0",
+        "name": "Bus near Panjagutta",
+        "layer": "bus",
+        "original_degree": 12,
+        "composite_score": 0.15707294336984387
+      }
+    ]
+  }
+}

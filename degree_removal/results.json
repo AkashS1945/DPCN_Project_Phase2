@@ -1,0 +1,424 @@
+{
+  "analysis_type": "degree_centrality_removal",
+  "network_info": {
+    "total_nodes": 675,
+    "total_edges": 3434,
+    "analysis_timestamp": "2025-11-13T22:09:34.112461"
+  },
+  "top_hubs": [
+    {
+      "rank": 1,
+      "node_id": "SC_MMTS",
+      "degree_centrality": 0.04896142433234422,
+      "degree": 33,
+      "layer": "mmts",
+      "name": "SECUNDERABAD"
+    },
+    {
+      "rank": 2,
+      "node_id": "MGB_Metro",
+      "degree_centrality": 0.04599406528189911,
+      "degree": 31,
+      "layer": "metro",
+      "name": "Mahatma Gandhi Bus Station"
+    },
+    {
+      "rank": 3,
+      "node_id": "ERA_Metro",
+      "degree_centrality": 0.04451038575667656,
+      "degree": 30,
+      "layer": "metro",
+      "name": "Erragadda"
+    },
+    {
+      "rank": 4,
+      "node_id": "OMC_Metro",
+      "degree_centrality": 0.04451038575667656,
+      "degree": 30,
+      "layer": "metro",
+      "name": "Osmania Medical College"
+    },
+    {
+      "rank": 5,
+      "node_id": "SUB_Metro",
+      "degree_centrality": 0.04302670623145401,
+      "degree": 29,
+      "layer": "metro",
+      "name": "Sultan Bazar"
+    },
+    {
+      "rank": 6,
+      "node_id": "BTN_Metro",
+      "degree_centrality": 0.04154302670623146,
+      "degree": 28,
+      "layer": "metro",
+      "name": "Bharat Nagar"
+    },
+    {
+      "rank": 7,
+      "node_id": "BTNR_MMTS",
+      "degree_centrality": 0.04154302670623146,
+      "degree": 28,
+      "layer": "mmts",
+      "name": "BHARATNAGAR"
+    },
+    {
+      "rank": 8,
+      "node_id": "AME_Metro",
+      "degree_centrality": 0.040059347181008904,
+      "degree": 27,
+      "layer": "metro",
+      "name": "Ameerpet"
+    },
+    {
+      "rank": 9,
+      "node_id": "SCR_Metro",
+      "degree_centrality": 0.03857566765578635,
+      "degree": 26,
+      "layer": "metro",
+      "name": "Secunderabad West"
+    },
+    {
+      "rank": 10,
+      "node_id": "ESI_Metro",
+      "degree_centrality": 0.0370919881305638,
+      "degree": 25,
+      "layer": "metro",
+      "name": "ESI Hospital"
+    },
+    {
+      "rank": 11,
+      "node_id": "ASM_Metro",
+      "degree_centrality": 0.03560830860534125,
+      "degree": 24,
+      "layer": "metro",
+      "name": "Assembly"
+    },
+    {
+      "rank": 12,
+      "node_id": "GNH_Metro",
+      "degree_centrality": 0.03560830860534125,
+      "degree": 24,
+      "layer": "metro",
+      "name": "Gandhi Hospital"
+    },
+    {
+      "rank": 13,
+      "node_id": "MSP_Metro",
+      "degree_centrality": 0.03412462908011869,
+      "degree": 23,
+      "layer": "metro",
+      "name": "Moosapet"
+    },
+    {
+      "rank": 14,
+      "node_id": "SRN_Metro",
+      "degree_centrality": 0.03412462908011869,
+      "degree": 23,
+      "layer": "metro",
+      "name": "S. R. Nagar"
+    },
+    {
+      "rank": 15,
+      "node_id": "GAB_Metro",
+      "degree_centrality": 0.03412462908011869,
+      "degree": 23,
+      "layer": "metro",
+      "name": "Gandhi Bhavan"
+    }
+  ],
+  "removal_analysis": {
+    "removal_sequence": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "avg_clustering": [
+      0.524550867907275,
+      0.5231682256190631,
+      0.521863620419189,
+      0.5204775633462844,
+      0.518494986126988,
+      0.5174541670929207,
+      0.515276086651707,
+      0.5134915487890983,
+      0.5126748656261377,
+      0.5110996577232331,
+      0.510201086278373,
+      0.5085365125731879,
+      0.5066002812226378,
+      0.5052458803593448,
+      0.5037345522632605
+    ],
+    "avg_betweenness": [
+      0.012074304283112888,
+      0.01210317108820263,
+      0.012133115029493794,
+      0.012160538854716284,
+      0.012216988952287516,
+      0.01223798696500412,
+      0.012445758293642743,
+      0.012489325343424621,
+      0.012523425681320423,
+      0.012578842570636373,
+      0.01260477241360076,
+      0.012644580270627905,
+      0.012665130954503008,
+      0.012698529304857598,
+      0.012740736485611049
+    ],
+    "avg_closeness": [
+      0.11425893568607987,
+      0.11417063039140707,
+      0.11407256344583505,
+      0.11398724095679084,
+      0.11363802580359782,
+      0.11362455881532374,
+      0.11214453412481042,
+      0.11190484618123635,
+      0.11175496662263062,
+      0.11145624568891056,
+      0.11139418793891313,
+      0.11119536382392338,
+      0.11120223465034441,
+      0.11108013279037628,
+      0.1108744795095131
+    ],
+    "avg_degree": [
+      10.091988130563799,
+      10.014858841010401,
+      9.94047619047619,
+      9.868852459016393,
+      9.8,
+      9.733931240657698,
+      9.664670658682635,
+      9.598200899550225,
+      9.534534534534535,
+      9.476691729323308,
+      9.418674698795181,
+      9.363499245852188,
+      9.311178247734139,
+      9.261724659606656,
+      9.209090909090909
+    ],
+    "avg_time": [
+      5.982610219278593,
+      5.96002432118038,
+      5.959712263707635,
+      5.943091472477802,
+      5.923365221534909,
+      5.919953488428642,
+      5.911784377294878,
+      5.902887153665056,
+      5.888564234892924,
+      5.878653448857326,
+      5.857449909562885,
+      5.847252166469557,
+      5.8462757207787845,
+      5.838626501617253,
+      5.8134699730822765
+    ],
+    "avg_cost": [
+      14.996475472844281,
+      15.123644667328087,
+      15.252202465558275,
+      15.38192611472069,
+      15.509028219080129,
+      15.633848978930567,
+      15.763968245649687,
+      15.881585726367913,
+      16.003442488484037,
+      16.121607259281078,
+      16.23750126910268,
+      16.353833928245585,
+      16.466843348025737,
+      16.57981417792072,
+      16.69576409495992
+    ],
+    "num_components": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "largest_component_size": [
+      674,
+      673,
+      672,
+      671,
+      670,
+      669,
+      668,
+      667,
+      666,
+      665,
+      664,
+      663,
+      662,
+      661,
+      660
+    ],
+    "network_efficiency": [
+      0.15624836823197794,
+      0.15598776010008872,
+      0.1555684691443993,
+      0.15536242107974085,
+      0.15471884354308885,
+      0.15453418076332986,
+      0.15282179864400644,
+      0.15232548403425136,
+      0.1520080945766356,
+      0.15152025972280553,
+      0.1513828840541623,
+      0.15103624253815653,
+      0.1509200421187408,
+      0.150688898339824,
+      0.15030649518710687
+    ],
+    "hub_details": [
+      {
+        "rank": 1,
+        "hub_id": "SC_MMTS",
+        "name": "SECUNDERABAD",
+        "layer": "mmts",
+        "original_degree": 33,
+        "composite_score": 0.04896142433234422
+      },
+      {
+        "rank": 2,
+        "hub_id": "MGB_Metro",
+        "name": "Mahatma Gandhi Bus Station",
+        "layer": "metro",
+        "original_degree": 31,
+        "composite_score": 0.04599406528189911
+      },
+      {
+        "rank": 3,
+        "hub_id": "ERA_Metro",
+        "name": "Erragadda",
+        "layer": "metro",
+        "original_degree": 30,
+        "composite_score": 0.04451038575667656
+      },
+      {
+        "rank": 4,
+        "hub_id": "OMC_Metro",
+        "name": "Osmania Medical College",
+        "layer": "metro",
+        "original_degree": 30,
+        "composite_score": 0.04451038575667656
+      },
+      {
+        "rank": 5,
+        "hub_id": "SUB_Metro",
+        "name": "Sultan Bazar",
+        "layer": "metro",
+        "original_degree": 29,
+        "composite_score": 0.04302670623145401
+      },
+      {
+        "rank": 6,
+        "hub_id": "BTN_Metro",
+        "name": "Bharat Nagar",
+        "layer": "metro",
+        "original_degree": 28,
+        "composite_score": 0.04154302670623146
+      },
+      {
+        "rank": 7,
+        "hub_id": "BTNR_MMTS",
+        "name": "BHARATNAGAR",
+        "layer": "mmts",
+        "original_degree": 28,
+        "composite_score": 0.04154302670623146
+      },
+      {
+        "rank": 8,
+        "hub_id": "AME_Metro",
+        "name": "Ameerpet",
+        "layer": "metro",
+        "original_degree": 27,
+        "composite_score": 0.040059347181008904
+      },
+      {
+        "rank": 9,
+        "hub_id": "SCR_Metro",
+        "name": "Secunderabad West",
+        "layer": "metro",
+        "original_degree": 26,
+        "composite_score": 0.03857566765578635
+      },
+      {
+        "rank": 10,
+        "hub_id": "ESI_Metro",
+        "name": "ESI Hospital",
+        "layer": "metro",
+        "original_degree": 25,
+        "composite_score": 0.0370919881305638
+      },
+      {
+        "rank": 11,
+        "hub_id": "ASM_Metro",
+        "name": "Assembly",
+        "layer": "metro",
+        "original_degree": 24,
+        "composite_score": 0.03560830860534125
+      },
+      {
+        "rank": 12,
+        "hub_id": "GNH_Metro",
+        "name": "Gandhi Hospital",
+        "layer": "metro",
+        "original_degree": 24,
+        "composite_score": 0.03560830860534125
+      },
+      {
+        "rank": 13,
+        "hub_id": "MSP_Metro",
+        "name": "Moosapet",
+        "layer": "metro",
+        "original_degree": 23,
+        "composite_score": 0.03412462908011869
+      },
+      {
+        "rank": 14,
+        "hub_id": "SRN_Metro",
+        "name": "S. R. Nagar",
+        "layer": "metro",
+        "original_degree": 23,
+        "composite_score": 0.03412462908011869
+      },
+      {
+        "rank": 15,
+        "hub_id": "GAB_Metro",
+        "name": "Gandhi Bhavan",
+        "layer": "metro",
+        "original_degree": 23,
+        "composite_score": 0.03412462908011869
+      }
+    ]
+  }
+}

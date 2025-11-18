@@ -1,0 +1,424 @@
+{
+  "analysis_type": "betweenness_centrality_removal",
+  "network_info": {
+    "total_nodes": 675,
+    "total_edges": 3434,
+    "analysis_timestamp": "2025-11-13T22:09:34.112461"
+  },
+  "top_hubs": [
+    {
+      "rank": 1,
+      "node_id": "HYB_MMTS",
+      "betweenness_centrality": 0.2560460379653905,
+      "degree": 21,
+      "layer": "mmts",
+      "name": "HYDERABAD"
+    },
+    {
+      "rank": 2,
+      "node_id": "Bus_Begumpet",
+      "betweenness_centrality": 0.2538570986154273,
+      "degree": 9,
+      "layer": "bus",
+      "name": "Begumpet Bus Hub"
+    },
+    {
+      "rank": 3,
+      "node_id": "SC_MMTS",
+      "betweenness_centrality": 0.23848822538640752,
+      "degree": 33,
+      "layer": "mmts",
+      "name": "SECUNDERABAD"
+    },
+    {
+      "rank": 4,
+      "node_id": "SJVP_MMTS",
+      "betweenness_centrality": 0.21729803608745016,
+      "degree": 6,
+      "layer": "mmts",
+      "name": "SANJEEVAIAH PARK"
+    },
+    {
+      "rank": 5,
+      "node_id": "Bus_Jubilee_Hills",
+      "betweenness_centrality": 0.20689859974387984,
+      "degree": 11,
+      "layer": "bus",
+      "name": "Jubilee Hills Bus Hub"
+    },
+    {
+      "rank": 6,
+      "node_id": "Bus_feeder_AME_Metro_1",
+      "betweenness_centrality": 0.20647812374121527,
+      "degree": 14,
+      "layer": "bus",
+      "name": "Bus near Ameerpet"
+    },
+    {
+      "rank": 7,
+      "node_id": "KCG_MMTS",
+      "betweenness_centrality": 0.19561622564470832,
+      "degree": 6,
+      "layer": "mmts",
+      "name": "KACHEGUDA"
+    },
+    {
+      "rank": 8,
+      "node_id": "Bus_feeder_AME_Metro_3",
+      "betweenness_centrality": 0.17935486466841852,
+      "degree": 13,
+      "layer": "bus",
+      "name": "Bus near Ameerpet"
+    },
+    {
+      "rank": 9,
+      "node_id": "BMT_MMTS",
+      "betweenness_centrality": 0.16420461069275175,
+      "degree": 4,
+      "layer": "mmts",
+      "name": "BEGUMPET"
+    },
+    {
+      "rank": 10,
+      "node_id": "MXT_MMTS",
+      "betweenness_centrality": 0.16034990326604046,
+      "degree": 17,
+      "layer": "mmts",
+      "name": "MALAKPET"
+    },
+    {
+      "rank": 11,
+      "node_id": "MSB_Metro",
+      "betweenness_centrality": 0.12831748313622054,
+      "degree": 13,
+      "layer": "metro",
+      "name": "Musarambagh"
+    },
+    {
+      "rank": 12,
+      "node_id": "DSN_Metro",
+      "betweenness_centrality": 0.12414920458894305,
+      "degree": 18,
+      "layer": "metro",
+      "name": "Dilsukh Nagar"
+    },
+    {
+      "rank": 13,
+      "node_id": "Bus_Musheerabad",
+      "betweenness_centrality": 0.10668774610388779,
+      "degree": 10,
+      "layer": "bus",
+      "name": "Musheerabad Bus Hub"
+    },
+    {
+      "rank": 14,
+      "node_id": "LGDH_MMTS",
+      "betweenness_centrality": 0.1016715205734072,
+      "degree": 9,
+      "layer": "mmts",
+      "name": "LALAGUDA GATE"
+    },
+    {
+      "rank": 15,
+      "node_id": "BTNR_MMTS",
+      "betweenness_centrality": 0.10013608885133825,
+      "degree": 28,
+      "layer": "mmts",
+      "name": "BHARATNAGAR"
+    }
+  ],
+  "removal_analysis": {
+    "removal_sequence": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "avg_clustering": [
+      0.5246988624233162,
+      0.5259175400724908,
+      0.5264123509245806,
+      0.5270975158787653,
+      0.5285580241135739,
+      0.5287704027845338,
+      0.5292587873745598,
+      0.5292100891718028,
+      0.5297141201159532,
+      0.5299856897339918,
+      0.5292151023241167,
+      0.5276459243591312,
+      0.5281368671411816,
+      0.5290793747992782,
+      0.5290681176974991
+    ],
+    "avg_betweenness": [
+      0.012234398479388581,
+      0.012479018253565797,
+      0.013570904260896926,
+      0.013600067535053344,
+      0.014174582365955464,
+      0.014205680114213724,
+      0.014241705818073321,
+      0.014270829768344167,
+      0.014368657995798133,
+      0.014403765506007292,
+      0.0147254957410811,
+      0.014760327653615289,
+      0.014810197306049518,
+      0.014844831919710427,
+      0.015454299464566473
+    ],
+    "avg_closeness": [
+      0.11327094558520645,
+      0.11120530649716955,
+      0.10237350921834365,
+      0.10230574115558534,
+      0.09904068403112143,
+      0.09897208123070317,
+      0.09887603757363753,
+      0.09882617607816907,
+      0.0982051458858755,
+      0.09811667269854372,
+      0.09661555527147045,
+      0.09656045647248805,
+      0.09636662871388398,
+      0.09629970801401562,
+      0.09322910179271388
+    ],
+    "avg_degree": [
+      10.127596439169139,
+      10.115898959881129,
+      10.032738095238095,
+      10.035767511177347,
+      10.017910447761194,
+      9.994020926756352,
+      9.994011976047904,
+      9.976011994002999,
+      9.981981981981981,
+      9.948872180451128,
+      9.924698795180722,
+      9.888386123680242,
+      9.876132930513595,
+      9.866868381240545,
+      9.796969696969697
+    ],
+    "avg_time": [
+      5.9882313816532236,
+      5.9789962919514394,
+      5.951510548716127,
+      5.95147575845239,
+      5.931089267522831,
+      5.930317091479015,
+      5.930068237922145,
+      5.934134476794117,
+      5.933805890315744,
+      5.919523694604459,
+      5.915425858426583,
+      5.927601415177915,
+      5.923367827822648,
+      5.916039358049986,
+      5.907848981807984
+    ],
+    "avg_cost": [
+      14.948257257022174,
+      14.973020968883356,
+      15.107964147029483,
+      15.123852964762536,
+      15.149752352849363,
+      15.196046760723398,
+      15.216464450966354,
+      15.257836776377907,
+      15.268234163296443,
+      15.338456639239697,
+      15.39108196467907,
+      15.467102615093394,
+      15.495469013854214,
+      15.530909280970748,
+      15.659935783113168
+    ],
+    "num_components": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "largest_component_size": [
+      674,
+      673,
+      672,
+      671,
+      670,
+      669,
+      668,
+      667,
+      666,
+      665,
+      664,
+      663,
+      662,
+      661,
+      660
+    ],
+    "network_efficiency": [
+      0.15649533107236555,
+      0.1546502938452937,
+      0.14698265863771595,
+      0.14696581568687994,
+      0.14373867681487465,
+      0.1436585345855291,
+      0.14355549404830192,
+      0.14350001691863878,
+      0.14287766882302547,
+      0.14271498224545942,
+      0.1414420150882838,
+      0.14131931501215067,
+      0.14113029268861016,
+      0.14105218015404292,
+      0.13870974713295797
+    ],
+    "hub_details": [
+      {
+        "rank": 1,
+        "hub_id": "HYB_MMTS",
+        "name": "HYDERABAD",
+        "layer": "mmts",
+        "original_degree": 21,
+        "composite_score": 0.2560460379653905
+      },
+      {
+        "rank": 2,
+        "hub_id": "Bus_Begumpet",
+        "name": "Begumpet Bus Hub",
+        "layer": "bus",
+        "original_degree": 9,
+        "composite_score": 0.2538570986154273
+      },
+      {
+        "rank": 3,
+        "hub_id": "SC_MMTS",
+        "name": "SECUNDERABAD",
+        "layer": "mmts",
+        "original_degree": 33,
+        "composite_score": 0.23848822538640752
+      },
+      {
+        "rank": 4,
+        "hub_id": "SJVP_MMTS",
+        "name": "SANJEEVAIAH PARK",
+        "layer": "mmts",
+        "original_degree": 6,
+        "composite_score": 0.21729803608745016
+      },
+      {
+        "rank": 5,
+        "hub_id": "Bus_Jubilee_Hills",
+        "name": "Jubilee Hills Bus Hub",
+        "layer": "bus",
+        "original_degree": 11,
+        "composite_score": 0.20689859974387984
+      },
+      {
+        "rank": 6,
+        "hub_id": "Bus_feeder_AME_Metro_1",
+        "name": "Bus near Ameerpet",
+        "layer": "bus",
+        "original_degree": 14,
+        "composite_score": 0.20647812374121527
+      },
+      {
+        "rank": 7,
+        "hub_id": "KCG_MMTS",
+        "name": "KACHEGUDA",
+        "layer": "mmts",
+        "original_degree": 6,
+        "composite_score": 0.19561622564470832
+      },
+      {
+        "rank": 8,
+        "hub_id": "Bus_feeder_AME_Metro_3",
+        "name": "Bus near Ameerpet",
+        "layer": "bus",
+        "original_degree": 13,
+        "composite_score": 0.17935486466841852
+      },
+      {
+        "rank": 9,
+        "hub_id": "BMT_MMTS",
+        "name": "BEGUMPET",
+        "layer": "mmts",
+        "original_degree": 4,
+        "composite_score": 0.16420461069275175
+      },
+      {
+        "rank": 10,
+        "hub_id": "MXT_MMTS",
+        "name": "MALAKPET",
+        "layer": "mmts",
+        "original_degree": 17,
+        "composite_score": 0.16034990326604046
+      },
+      {
+        "rank": 11,
+        "hub_id": "MSB_Metro",
+        "name": "Musarambagh",
+        "layer": "metro",
+        "original_degree": 13,
+        "composite_score": 0.12831748313622054
+      },
+      {
+        "rank": 12,
+        "hub_id": "DSN_Metro",
+        "name": "Dilsukh Nagar",
+        "layer": "metro",
+        "original_degree": 18,
+        "composite_score": 0.12414920458894305
+      },
+      {
+        "rank": 13,
+        "hub_id": "Bus_Musheerabad",
+        "name": "Musheerabad Bus Hub",
+        "layer": "bus",
+        "original_degree": 10,
+        "composite_score": 0.10668774610388779
+      },
+      {
+        "rank": 14,
+        "hub_id": "LGDH_MMTS",
+        "name": "LALAGUDA GATE",
+        "layer": "mmts",
+        "original_degree": 9,
+        "composite_score": 0.1016715205734072
+      },
+      {
+        "rank": 15,
+        "hub_id": "BTNR_MMTS",
+        "name": "BHARATNAGAR",
+        "layer": "mmts",
+        "original_degree": 28,
+        "composite_score": 0.10013608885133825
+      }
+    ]
+  }
+}

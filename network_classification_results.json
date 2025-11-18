@@ -1,0 +1,74 @@
+{
+  "classification": {
+    "primary_type": "SMALL-WORLD",
+    "all_types": [
+      "SMALL-WORLD"
+    ]
+  },
+  "scale_free": {
+    "is_scale_free": false,
+    "gamma": 0.35342236337141086,
+    "gamma_loglog": 1.1969785094409695,
+    "r_squared": 0.09416615026789898,
+    "r_squared_loglog": 0.28932065869291645,
+    "ks_statistic": 0.38082520318375157,
+    "rmse": 0.039967227214233306,
+    "criteria_passed": 0
+  },
+  "random": {
+    "is_random": false,
+    "edge_probability": 0.030192328827343663,
+    "poisson_p_value": 1.6993485283497807e-07,
+    "clustering_ratio": 17.35739842762367,
+    "path_ratio": 4.053207493731107,
+    "expected_clustering": 0.030192328827343663,
+    "expected_path_length": 2.162156355247756
+  },
+  "small_world": {
+    "is_small_world": true,
+    "sigma": 5.561882299376001,
+    "C_real": 0.5240602809140318,
+    "C_random": 0.030192328827343663,
+    "L_real": 8.763668341708543,
+    "L_random": 2.80816805759201,
+    "clustering_ratio": 17.35739842762367,
+    "path_ratio": 3.1207777319507524
+  },
+  "regular": {
+    "is_regular": false,
+    "unique_degrees": 31,
+    "degree_std": 4.255083556972478
+  },
+  "complete": {
+    "is_complete": false,
+    "edge_completeness": 0.030192328827343663,
+    "max_possible_edges": 227475
+  },
+  "core_metrics": {
+    "node_count": 675,
+    "edge_count": 6868,
+    "avg_degree": 10.174814814814814,
+    "degree_variance": 18.105736076817557,
+    "min_degree": 2,
+    "max_degree": 33,
+    "clustering_coefficient": 0.5240602809140318,
+    "avg_path_length": 8.763668341708543,
+    "diameter_estimate": 24,
+    "assortativity": 0.20535772835765262
+  },
+  "model_comparisons": {
+    "random": {
+      "avg_degree": 20.34962962962963,
+      "clustering": 0.030192328827343663,
+      "path_length": 2.162156355247756,
+      "degree_variance": 19.735226920337194
+    },
+    "configuration": {
+      "avg_degree": 10.174814814814814,
+      "clustering": 2.578632136627163e-06,
+      "path_length": 2.80816805759201,
+      "degree_variance": 18.105736076817557
+    },
+    "regular": null
+  }
+}

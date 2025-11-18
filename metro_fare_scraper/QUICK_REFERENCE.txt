@@ -1,0 +1,155 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                  METRO FARE SCRAPER - QUICK REFERENCE              ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+📍 LOCATION
+───────────────────────────────────────────────────────────────────
+~/Documents/sem 5/DPCN/Project/Hyd_Urban_Mobility_&_Public_Transport_Networks/metro_fare_scraper/
+
+⚡ QUICK START (3 COMMANDS)
+───────────────────────────────────────────────────────────────────
+cd metro_fare_scraper/
+./setup.sh
+python scrape_metro_data.py
+
+📋 COMMANDS CHEAT SHEET
+───────────────────────────────────────────────────────────────────
+python test_setup.py           # Verify installation
+python scrape_metro_data.py    # Scrape data from website
+python scrape_metro_api.py     # Try API method (alternative)
+python analyze_fares.py        # Generate visualizations
+
+./setup.sh                     # Install dependencies
+pip install -r requirements.txt  # Manual install
+
+📂 FILE PURPOSES
+───────────────────────────────────────────────────────────────────
+scrape_metro_data.py    → Main scraper (use this!)
+analyze_fares.py        → Creates charts and reports
+scrape_metro_api.py     → API alternative (optional)
+test_setup.py           → System check
+
+README.md               → Project overview
+QUICKSTART.md           → Step-by-step guide
+PROJECT_DOCS.md         → Full documentation
+PROJECT_SUMMARY.txt     → This summary
+
+📊 OUTPUT FILES
+───────────────────────────────────────────────────────────────────
+data/metro_fares_raw.csv         → Raw scraped data
+data/metro_fares_clean.csv       → Cleaned data (use this!)
+data/fare_statistics.json        → Summary stats
+
+visualizations/*.png             → Charts
+visualizations/*.html            → Interactive dashboards
+visualizations/analysis_report.txt → Text summary
+
+🎯 TYPICAL WORKFLOW
+───────────────────────────────────────────────────────────────────
+1. cd metro_fare_scraper/
+2. python test_setup.py          # Check everything works
+3. python scrape_metro_data.py   # Choose "1" for sample test
+4. python analyze_fares.py       # Generate visualizations
+5. View results in data/ and visualizations/
+
+⏱️ TIME ESTIMATES
+───────────────────────────────────────────────────────────────────
+Setup:           5 minutes
+Sample (10):     2 minutes
+Small (100):     15 minutes
+Full (3,250):    2-3 hours
+Analysis:        1 minute
+
+💾 DATA STRUCTURE
+───────────────────────────────────────────────────────────────────
+Columns in metro_fares_clean.csv:
+  from_station    → Origin (e.g., "Miyapur")
+  to_station      → Destination (e.g., "LB Nagar")
+  fare_rs         → Fare in rupees (e.g., 50.0)
+  distance_km     → Distance in km (e.g., 29.4)
+  travel_time_min → Time in minutes (e.g., 58.0)
+  cost_per_km     → Efficiency (e.g., 1.70)
+
+🔧 TROUBLESHOOTING
+───────────────────────────────────────────────────────────────────
+Problem                  → Solution
+─────────────────────────────────────────────────────────────────
+Chrome not found         → sudo apt install chromium-browser
+Import error             → pip install -r requirements.txt
+Website timeout          → Check internet connection
+No data scraped          → Set headless=False in code
+Selenium crash           → Update: pip install -U selenium
+
+📖 DOCUMENTATION GUIDE
+───────────────────────────────────────────────────────────────────
+Need help with...        → Read this file
+─────────────────────────────────────────────────────────────────
+Getting started          → QUICKSTART.md
+Installation issues      → README.md
+Code details             → PROJECT_DOCS.md
+Complete overview        → PROJECT_SUMMARY.txt
+This quick reference     → QUICK_REFERENCE.txt (you are here!)
+
+🌐 TARGET WEBSITE
+───────────────────────────────────────────────────────────────────
+https://ltmetro.com/find-trip-details/
+
+Scrapes: Fare, Distance, Travel Time
+Stations: 57 metro stations (3 lines)
+Pairs: ~3,250 combinations
+
+📈 ANALYSIS OUTPUTS
+───────────────────────────────────────────────────────────────────
+fare_distribution.png           → Histogram + box plot
+distance_distribution.png       → Distance patterns
+fare_vs_distance.png            → Correlation plot
+cost_per_km_analysis.png        → Efficiency analysis
+fare_heatmap_interactive.html   → All pairs matrix
+analysis_dashboard.html         → Multi-panel dashboard
+analysis_report.txt             → Text summary
+
+🔗 INTEGRATION WITH MAIN PROJECT
+───────────────────────────────────────────────────────────────────
+import pandas as pd
+
+# Load scraped fares
+fares = pd.read_csv('metro_fare_scraper/data/metro_fares_clean.csv')
+
+# Load your network
+edges = pd.read_csv('edges.csv')
+
+# Merge
+metro_edges = edges[edges['mode'] == 'metro']
+enriched = metro_edges.merge(fares, 
+    left_on=['from', 'to'],
+    right_on=['from_station', 'to_station'])
+
+# Update costs
+edges.loc[edges['mode'] == 'metro', 'cost'] = enriched['fare_rs']
+
+💡 TIPS
+───────────────────────────────────────────────────────────────────
+✓ Always test with sample mode first
+✓ Run analysis after each scrape to verify data
+✓ Checkpoints save every 50 records (auto-recovery)
+✓ Use headless=False to watch the scraping
+✓ Full scrape can take 2-3 hours - be patient!
+
+🚨 IMPORTANT NOTES
+───────────────────────────────────────────────────────────────────
+• For educational/research use only
+• Respects 2-3 second delays between requests
+• Verify against official ltmetro.com data
+• Website structure may change - update selectors
+
+📞 HELP
+───────────────────────────────────────────────────────────────────
+Still stuck? Check:
+1. Console error messages
+2. test_setup.py output
+3. PROJECT_DOCS.md troubleshooting section
+4. Chrome DevTools if website changed
+
+╔═══════════════════════════════════════════════════════════════════╗
+║              READY TO SCRAPE! Run: python test_setup.py            ║
+╚═══════════════════════════════════════════════════════════════════╝

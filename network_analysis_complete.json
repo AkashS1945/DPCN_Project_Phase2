@@ -1,0 +1,175 @@
+{
+  "basic_properties": {
+    "num_nodes": 675,
+    "num_edges": 3434,
+    "density": 0.015096164413671832,
+    "is_connected": 1,
+    "num_components": 1,
+    "is_directed": 0,
+    "is_weighted": 1,
+    "is_planar": 0
+  },
+  "connectivity": {
+    "num_components": 1,
+    "largest_component_size": 675,
+    "largest_component_fraction": 1.0,
+    "node_connectivity": 2,
+    "edge_connectivity": 2,
+    "is_biconnected": 1,
+    "num_articulation_points": 0,
+    "num_bridges": 0
+  },
+  "centrality": {
+    "avg_degree_centrality": 0.015096164413671833,
+    "max_degree_centrality": 0.04896142433234422,
+    "avg_betweenness_centrality": 0.011620093777756222,
+    "max_betweenness_centrality": 0.2560460379653905,
+    "avg_closeness_centrality": 0.1184146599833025,
+    "max_closeness_centrality": 0.17282051282051283,
+    "avg_eigenvector_centrality": 0.011016975917594393,
+    "avg_pagerank": 0.001481481481481481,
+    "top_5_degree_nodes": [
+      [
+        "SC_MMTS",
+        0.04896142433234422
+      ],
+      [
+        "MGB_Metro",
+        0.04599406528189911
+      ],
+      [
+        "ERA_Metro",
+        0.04451038575667656
+      ],
+      [
+        "OMC_Metro",
+        0.04451038575667656
+      ],
+      [
+        "SUB_Metro",
+        0.04302670623145401
+      ]
+    ],
+    "top_5_betweenness_nodes": [
+      [
+        "HYB_MMTS",
+        0.2560460379653905
+      ],
+      [
+        "Bus_Begumpet",
+        0.2538570986154273
+      ],
+      [
+        "SC_MMTS",
+        0.23848822538640752
+      ],
+      [
+        "SJVP_MMTS",
+        0.21729803608745016
+      ],
+      [
+        "Bus_Jubilee_Hills",
+        0.20689859974387984
+      ]
+    ]
+  },
+  "clustering": {
+    "avg_clustering_coefficient": 0.5240602809140318,
+    "transitivity": 0.4956535608900231,
+    "max_clustering_coefficient": 0.8571428571428571,
+    "min_clustering_coefficient": 0
+  },
+  "path_analysis": {
+    "avg_shortest_path_length": 8.820323112429937,
+    "diameter": 24,
+    "radius": 13,
+    "avg_eccentricity": 17.754074074074072,
+    "max_eccentricity": 24,
+    "center_size": 13,
+    "periphery_size": 23
+  },
+  "degree_distribution": {
+    "avg_degree": 10.174814814814814,
+    "median_degree": 10.0,
+    "max_degree": 33,
+    "min_degree": 2,
+    "std_degree": 4.255083556972478,
+    "degree_assortativity": 0.20535772835765337,
+    "power_law_exponent": 1.19697850944097,
+    "power_law_fit_r_squared": 0.28932065869291645,
+    "degree_distribution": {
+      "11": 82,
+      "13": 40,
+      "12": 63,
+      "20": 7,
+      "23": 3,
+      "28": 2,
+      "30": 2,
+      "25": 1,
+      "27": 1,
+      "17": 5,
+      "16": 13,
+      "19": 4,
+      "24": 2,
+      "22": 2,
+      "31": 1,
+      "18": 6,
+      "29": 1,
+      "26": 1,
+      "21": 3,
+      "6": 36,
+      "5": 14,
+      "8": 78,
+      "9": 85,
+      "4": 29,
+      "7": 70,
+      "3": 13,
+      "33": 1,
+      "2": 1,
+      "10": 73,
+      "14": 30,
+      "15": 6
+    }
+  },
+  "network_type": {
+    "network_types": [
+      "Complex"
+    ],
+    "is_small_world": 0,
+    "is_scale_free": false,
+    "clustering_coefficient": 0.5240602809140318,
+    "random_clustering_coefficient": 0.016088487173110497,
+    "clustering_ratio": 32.57362083054772,
+    "avg_path_length": 8.820323112429937,
+    "random_avg_path_length": 3.055412682712386,
+    "path_length_ratio": 2.886786181891429,
+    "power_law_exponent": 1.19697850944097,
+    "power_law_r_squared": 0.28932065869291645,
+    "small_world_coefficient": 11.283697086704706
+  },
+  "resilience": {
+    "algebraic_connectivity": 0.016518542710935245,
+    "avg_neighbor_degree": 11.248756796576183,
+    "node_connectivity": 2,
+    "edge_connectivity": 2
+  },
+  "efficiency": {
+    "global_efficiency": 0.1603870230610171,
+    "local_efficiency": 0.7069712429738967
+  },
+  "community": {
+    "num_communities": 9,
+    "modularity": 0.7924362188522802,
+    "avg_community_size": 75.0,
+    "max_community_size": 146,
+    "min_community_size": 8
+  },
+  "spatial": {
+    "avg_edge_distance": 0.6183809014368615,
+    "max_edge_distance": 11.622516706007646,
+    "min_edge_distance": 0.0076312185982241,
+    "avg_edge_time": 6.009556981318324,
+    "avg_edge_cost": 26.704465248523533,
+    "total_network_length": 2123.520015534183
+  }
+}

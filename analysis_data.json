@@ -1,0 +1,5675 @@
+{
+  "basic": {
+    "total_nodes": 675,
+    "total_edges": 6868,
+    "nodes_by_layer": {
+      "metro": 57,
+      "mmts": 46,
+      "bus": 200,
+      "auto": 372
+    },
+    "edges_by_mode": {
+      "metro": 112,
+      "mmts": 92,
+      "bus": 1378,
+      "auto": 2230,
+      "transfer": 3056
+    }
+  },
+  "connectivity": {
+    "metro": {
+      "min": 8,
+      "max": 62,
+      "avg": 34.11,
+      "median": 36
+    },
+    "mmts": {
+      "min": 4,
+      "max": 66,
+      "avg": 13.35,
+      "median": 8
+    },
+    "bus": {
+      "min": 10,
+      "max": 40,
+      "avg": 23.0,
+      "median": 22
+    },
+    "auto": {
+      "min": 8,
+      "max": 32,
+      "avg": 17.68,
+      "median": 18
+    }
+  },
+  "regional_distribution": {
+    "R1": {
+      "metro": 8,
+      "mmts": 14,
+      "bus": 25,
+      "auto": 72,
+      "total": 119
+    },
+    "R2": {
+      "metro": 10,
+      "mmts": 10,
+      "bus": 48,
+      "auto": 56,
+      "total": 124
+    },
+    "R3": {
+      "metro": 14,
+      "mmts": 9,
+      "bus": 42,
+      "auto": 68,
+      "total": 133
+    },
+    "R4": {
+      "metro": 9,
+      "mmts": 5,
+      "bus": 12,
+      "auto": 52,
+      "total": 78
+    },
+    "R5": {
+      "metro": 7,
+      "mmts": 7,
+      "bus": 30,
+      "auto": 48,
+      "total": 92
+    },
+    "R6": {
+      "metro": 5,
+      "mmts": 1,
+      "bus": 25,
+      "auto": 40,
+      "total": 71
+    },
+    "R7": {
+      "metro": 4,
+      "mmts": 0,
+      "bus": 18,
+      "auto": 36,
+      "total": 58
+    }
+  },
+  "transfers": {
+    "total": 3056,
+    "percentage": 44.5,
+    "by_type": {
+      "bus_metro": 790,
+      "auto_metro": 930,
+      "bus_mmts": 148,
+      "auto_mmts": 282,
+      "auto_bus": 906
+    },
+    "avg_distance": 0.38,
+    "avg_time": 5.61
+  },
+  "distances": {
+    "metro": {
+      "min": 0.54,
+      "max": 1.7,
+      "avg": 1.06,
+      "total": 118.46
+    },
+    "mmts": {
+      "min": 0.57,
+      "max": 9.94,
+      "avg": 2.87,
+      "total": 263.95
+    },
+    "bus": {
+      "min": 0.07,
+      "max": 7.05,
+      "avg": 0.79,
+      "total": 1095.32
+    },
+    "auto": {
+      "min": 0.04,
+      "max": 11.62,
+      "avg": 0.72,
+      "total": 1606.57
+    }
+  },
+  "travel_times": {
+    "metro": {
+      "min": 3.54,
+      "max": 6.1,
+      "avg": 4.71
+    },
+    "mmts": {
+      "min": 5.39,
+      "max": 27.47,
+      "avg": 11.03
+    },
+    "bus": {
+      "min": 2.63,
+      "max": 26.64,
+      "avg": 5.26
+    },
+    "auto": {
+      "min": 3.42,
+      "max": 65.22,
+      "avg": 6.87
+    }
+  },
+  "metro_lines": {
+    "Red": {
+      "stations": 28,
+      "edges": 52,
+      "length_km": 27.28
+    },
+    "Blue": {
+      "stations": 23,
+      "edges": 44,
+      "length_km": 24.21
+    },
+    "Green": {
+      "stations": 9,
+      "edges": 16,
+      "length_km": 7.74
+    },
+    "interchanges": {
+      "count": 3,
+      "stations": [
+        {
+          "node_id": "AME_Metro",
+          "name": "Ameerpet",
+          "metro_line": "Red+Blue"
+        },
+        {
+          "node_id": "MGB_Metro",
+          "name": "Mahatma Gandhi Bus Station",
+          "metro_line": "Red+Green"
+        },
+        {
+          "node_id": "JBS_Metro",
+          "name": "JBS Parade Ground",
+          "metro_line": "Red+Green"
+        }
+      ]
+    }
+  },
+  "accessibility": {
+    "bus_near_metro": 189,
+    "bus_near_mmts": 28,
+    "bus_near_rail": 190,
+    "bus_far_from_rail": 10,
+    "bus_near_metro_pct": 94.5,
+    "bus_near_mmts_pct": 14.0,
+    "bus_near_rail_pct": 95.0,
+    "bus_far_from_rail_pct": 5.0,
+    "auto_near_metro": 277,
+    "auto_near_mmts": 98,
+    "auto_near_rail": 337,
+    "auto_far_from_rail": 35,
+    "auto_near_metro_pct": 74.5,
+    "auto_near_mmts_pct": 26.3,
+    "auto_near_rail_pct": 90.6,
+    "auto_far_from_rail_pct": 9.4,
+    "metro_stations": 57,
+    "mmts_stations": 46,
+    "rail_stations": 103,
+    "total_bus": 200,
+    "total_auto": 372,
+    "coverage_area_km2": 1453.2
+  },
+  "efficiency": {
+    "avg_degree": 20.35,
+    "density": 3.0192,
+    "avg_distance_km": 0.62,
+    "avg_travel_time_min": 6.01,
+    "avg_cost_rs": 14.82
+  },
+  "all_connected_nodes": [
+    {
+      "id": "SC_MMTS",
+      "name": "SECUNDERABAD",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 66
+    },
+    {
+      "id": "MGB_Metro",
+      "name": "Mahatma Gandhi Bus Station",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 62
+    },
+    {
+      "id": "ERA_Metro",
+      "name": "Erragadda",
+      "layer": "metro",
+      "region": "R4",
+      "degree": 60
+    },
+    {
+      "id": "OMC_Metro",
+      "name": "Osmania Medical College",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 60
+    },
+    {
+      "id": "SUB_Metro",
+      "name": "Sultan Bazar",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 58
+    },
+    {
+      "id": "BTN_Metro",
+      "name": "Bharat Nagar",
+      "layer": "metro",
+      "region": "R5",
+      "degree": 56
+    },
+    {
+      "id": "BTNR_MMTS",
+      "name": "BHARATNAGAR",
+      "layer": "mmts",
+      "region": "R4",
+      "degree": 56
+    },
+    {
+      "id": "AME_Metro",
+      "name": "Ameerpet",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 54
+    },
+    {
+      "id": "SCR_Metro",
+      "name": "Secunderabad West",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 52
+    },
+    {
+      "id": "ESI_Metro",
+      "name": "ESI Hospital",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 50
+    },
+    {
+      "id": "ASM_Metro",
+      "name": "Assembly",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 48
+    },
+    {
+      "id": "GNH_Metro",
+      "name": "Gandhi Hospital",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 48
+    },
+    {
+      "id": "MSP_Metro",
+      "name": "Moosapet",
+      "layer": "metro",
+      "region": "R5",
+      "degree": 46
+    },
+    {
+      "id": "SRN_Metro",
+      "name": "S. R. Nagar",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 46
+    },
+    {
+      "id": "GAB_Metro",
+      "name": "Gandhi Bhavan",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 46
+    },
+    {
+      "id": "NAM_Metro",
+      "name": "Nampally",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 44
+    },
+    {
+      "id": "SEC_E_Metro",
+      "name": "Secunderabad East",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 44
+    },
+    {
+      "id": "HSG_Metro",
+      "name": "Habsiguda",
+      "layer": "metro",
+      "region": "R6",
+      "degree": 42
+    },
+    {
+      "id": "PRG_Metro",
+      "name": "Parade Ground",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 42
+    },
+    {
+      "id": "HYB_MMTS",
+      "name": "HYDERABAD",
+      "layer": "mmts",
+      "region": "R2",
+      "degree": 42
+    },
+    {
+      "id": "BLR_Metro",
+      "name": "Balanagar",
+      "layer": "metro",
+      "region": "R5",
+      "degree": 40
+    },
+    {
+      "id": "LKP_Metro",
+      "name": "Lakdi-ka-pul",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 40
+    },
+    {
+      "id": "CDP_Metro",
+      "name": "Chikkadpally",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 40
+    },
+    {
+      "id": "UPL_Metro",
+      "name": "Uppal",
+      "layer": "metro",
+      "region": "R6",
+      "degree": 40
+    },
+    {
+      "id": "MUN_Metro",
+      "name": "Madhura Nagar",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 40
+    },
+    {
+      "id": "LKPL_MMTS",
+      "name": "LAKDIKAPUL",
+      "layer": "mmts",
+      "region": "R3",
+      "degree": 40
+    },
+    {
+      "id": "Bus_Paradise",
+      "name": "Paradise Bus Hub",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 40
+    },
+    {
+      "id": "KHA_Metro",
+      "name": "Khairatabad",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 38
+    },
+    {
+      "id": "VOM_Metro",
+      "name": "Victoria Memorial",
+      "layer": "metro",
+      "region": "R7",
+      "degree": 38
+    },
+    {
+      "id": "NGR_Metro",
+      "name": "NGRI",
+      "layer": "metro",
+      "region": "R6",
+      "degree": 38
+    },
+    {
+      "id": "Bus_Erragadda",
+      "name": "Erragadda Bus Hub",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 38
+    },
+    {
+      "id": "NEM_Metro",
+      "name": "New Market",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 36
+    },
+    {
+      "id": "DSN_Metro",
+      "name": "Dilsukh Nagar",
+      "layer": "metro",
+      "region": "R7",
+      "degree": 36
+    },
+    {
+      "id": "NAR_Metro",
+      "name": "Narayanaguda",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 36
+    },
+    {
+      "id": "MSH_Metro",
+      "name": "Musheerabad",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 36
+    },
+    {
+      "id": "JBS_Metro",
+      "name": "JBS Parade Ground",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 36
+    },
+    {
+      "id": "STD_Metro",
+      "name": "Stadium",
+      "layer": "metro",
+      "region": "R6",
+      "degree": 36
+    },
+    {
+      "id": "PUN_Metro",
+      "name": "Panjagutta",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 34
+    },
+    {
+      "id": "MKL_Metro",
+      "name": "Malakpet",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 34
+    },
+    {
+      "id": "MXT_MMTS",
+      "name": "MALAKPET",
+      "layer": "mmts",
+      "region": "R2",
+      "degree": 34
+    },
+    {
+      "id": "Bus_MGBS",
+      "name": "MGBS Bus Hub",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 34
+    },
+    {
+      "id": "Bus_feeder_SCR_Metro_0",
+      "name": "Bus North of SCR",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 34
+    },
+    {
+      "id": "IRM_Metro",
+      "name": "Erra Manzil",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 32
+    },
+    {
+      "id": "CHP_Metro",
+      "name": "Chaitanyapuri",
+      "layer": "metro",
+      "region": "R7",
+      "degree": 32
+    },
+    {
+      "id": "LBN_Metro",
+      "name": "L. B. Nagar",
+      "layer": "metro",
+      "region": "R7",
+      "degree": 32
+    },
+    {
+      "id": "RTC_Metro",
+      "name": "RTC Cross Roads",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 32
+    },
+    {
+      "id": "TAR_Metro",
+      "name": "Tarnaka",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 32
+    },
+    {
+      "id": "MET_Metro",
+      "name": "Mettuguda",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 32
+    },
+    {
+      "id": "KQD_MMTS",
+      "name": "KHAIRATABAD",
+      "layer": "mmts",
+      "region": "R3",
+      "degree": 32
+    },
+    {
+      "id": "Bus_feeder_ERA_Metro_0",
+      "name": "Bus North of ERA",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 32
+    },
+    {
+      "id": "Bus_feeder_MGB_Metro_1",
+      "name": "Bus East of MGB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 32
+    },
+    {
+      "id": "Bus_feeder_GNH_Metro_0",
+      "name": "Bus North of GNH",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 32
+    },
+    {
+      "id": "Bus_feeder_SCR_Metro_2",
+      "name": "Bus South of SCR",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 32
+    },
+    {
+      "id": "Auto_R2_12",
+      "name": "Auto Stand R2-12",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 32
+    },
+    {
+      "id": "Auto_R2_25",
+      "name": "Auto Stand R2-25",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 32
+    },
+    {
+      "id": "Bus_SR_Nagar",
+      "name": "SR Nagar Bus Hub",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 30
+    },
+    {
+      "id": "Bus_feeder_BTN_Metro_2",
+      "name": "Bus South of BTN",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 30
+    },
+    {
+      "id": "Bus_feeder_VOM_Metro_1",
+      "name": "Bus East of VOM",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 30
+    },
+    {
+      "id": "Bus_feeder_SUB_Metro_3",
+      "name": "Bus West of SUB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 30
+    },
+    {
+      "id": "Bus_feeder_CDP_Metro_3",
+      "name": "Bus West of CDP",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 30
+    },
+    {
+      "id": "Bus_feeder_GNH_Metro_3",
+      "name": "Bus West of GNH",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 30
+    },
+    {
+      "id": "Bus_Lakdi-ka-pul",
+      "name": "Lakdi-ka-pul Bus Hub",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 28
+    },
+    {
+      "id": "Bus_Koti",
+      "name": "Koti Bus Hub",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 28
+    },
+    {
+      "id": "Bus_Nampally",
+      "name": "Nampally Bus Hub",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 28
+    },
+    {
+      "id": "Bus_Moosapet",
+      "name": "Moosapet Bus Hub",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_MSP_Metro_0",
+      "name": "Bus North of MSP",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_ERA_Metro_1",
+      "name": "Bus East of ERA",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_ERA_Metro_3",
+      "name": "Bus West of ERA",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_SRN_Metro_2",
+      "name": "Bus South of SRN",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_AME_Metro_1",
+      "name": "Bus East of AME",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_KHA_Metro_1",
+      "name": "Bus East of KHA",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_LKP_Metro_0",
+      "name": "Bus North of LKP",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_LKP_Metro_2",
+      "name": "Bus South of LKP",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_LKP_Metro_3",
+      "name": "Bus West of LKP",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_ASM_Metro_3",
+      "name": "Bus West of ASM",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_NAM_Metro_1",
+      "name": "Bus East of NAM",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_OMC_Metro_1",
+      "name": "Bus East of OMC",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_OMC_Metro_3",
+      "name": "Bus West of OMC",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_SUB_Metro_0",
+      "name": "Bus North of SUB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_SCR_Metro_1",
+      "name": "Bus East of SCR",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_SCR_Metro_3",
+      "name": "Bus West of SCR",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_JBS_Metro_2",
+      "name": "Bus South of JBS",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_UPL_Metro_3",
+      "name": "Bus West of UPL",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 28
+    },
+    {
+      "id": "Bus_feeder_SEC_E_Metro_0",
+      "name": "Bus North of SEC_E",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 28
+    },
+    {
+      "id": "Auto_R1_27",
+      "name": "Auto Stand R1-27",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 28
+    },
+    {
+      "id": "Auto_R1_42",
+      "name": "Auto Stand R1-42",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 28
+    },
+    {
+      "id": "Auto_R2_3",
+      "name": "Auto Stand R2-3",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 28
+    },
+    {
+      "id": "Auto_R2_41",
+      "name": "Auto Stand R2-41",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 28
+    },
+    {
+      "id": "Auto_R2_51",
+      "name": "Auto Stand R2-51",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 28
+    },
+    {
+      "id": "Auto_R4_45",
+      "name": "Auto Stand R4-45",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 28
+    },
+    {
+      "id": "Auto_R5_20",
+      "name": "Auto Stand R5-20",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 28
+    },
+    {
+      "id": "KPH_Metro",
+      "name": "KPHB Colony",
+      "layer": "metro",
+      "region": "R5",
+      "degree": 26
+    },
+    {
+      "id": "MSB_Metro",
+      "name": "Musarambagh",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "NAG_Metro",
+      "name": "Nagole",
+      "layer": "metro",
+      "region": "R6",
+      "degree": 26
+    },
+    {
+      "id": "Bus_Ameerpet",
+      "name": "Ameerpet Bus Hub",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 26
+    },
+    {
+      "id": "Bus_Dilsukhnagar",
+      "name": "Dilsukhnagar Bus Hub",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 26
+    },
+    {
+      "id": "Bus_Afzalgunj",
+      "name": "Afzalgunj Bus Hub",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "Bus_Panjagutta",
+      "name": "Panjagutta Bus Hub",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_BLR_Metro_0",
+      "name": "Bus North of BLR",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_BLR_Metro_3",
+      "name": "Bus West of BLR",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_MSP_Metro_3",
+      "name": "Bus West of MSP",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_BTN_Metro_1",
+      "name": "Bus East of BTN",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_ESI_Metro_3",
+      "name": "Bus West of ESI",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_SRN_Metro_1",
+      "name": "Bus East of SRN",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_SRN_Metro_3",
+      "name": "Bus West of SRN",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_AME_Metro_3",
+      "name": "Bus West of AME",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_KHA_Metro_2",
+      "name": "Bus South of KHA",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_ASM_Metro_0",
+      "name": "Bus North of ASM",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_ASM_Metro_2",
+      "name": "Bus South of ASM",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_NAM_Metro_3",
+      "name": "Bus West of NAM",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_GAB_Metro_1",
+      "name": "Bus East of GAB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_OMC_Metro_0",
+      "name": "Bus North of OMC",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_MGB_Metro_0",
+      "name": "Bus North of MGB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_MGB_Metro_2",
+      "name": "Bus South of MGB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_VOM_Metro_2",
+      "name": "Bus South of VOM",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_SUB_Metro_2",
+      "name": "Bus South of SUB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_CDP_Metro_2",
+      "name": "Bus South of CDP",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_MSH_Metro_0",
+      "name": "Bus North of MSH",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 26
+    },
+    {
+      "id": "Bus_feeder_MET_Metro_0",
+      "name": "Bus North of MET",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R1_28",
+      "name": "Auto Stand R1-28",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R1_40",
+      "name": "Auto Stand R1-40",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R1_52",
+      "name": "Auto Stand R1-52",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R1_60",
+      "name": "Auto Stand R1-60",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R2_44",
+      "name": "Auto Stand R2-44",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R2_45",
+      "name": "Auto Stand R2-45",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R3_1",
+      "name": "Auto Stand R3-1",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R3_37",
+      "name": "Auto Stand R3-37",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R4_16",
+      "name": "Auto Stand R4-16",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R4_31",
+      "name": "Auto Stand R4-31",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R7_24",
+      "name": "Auto Stand R7-24",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 26
+    },
+    {
+      "id": "Auto_R7_36",
+      "name": "Auto Stand R7-36",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 26
+    },
+    {
+      "id": "KUK_Metro",
+      "name": "Kukatpally",
+      "layer": "metro",
+      "region": "R5",
+      "degree": 24
+    },
+    {
+      "id": "STPD_MMTS",
+      "name": "SITAFALMANDI",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Bus_Habsiguda",
+      "name": "Habsiguda Bus Hub",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_JNT_Metro_2",
+      "name": "Bus South of JNT",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_MSP_Metro_2",
+      "name": "Bus South of MSP",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_BTN_Metro_3",
+      "name": "Bus West of BTN",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_ERA_Metro_2",
+      "name": "Bus South of ERA",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_ESI_Metro_2",
+      "name": "Bus South of ESI",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_SRN_Metro_0",
+      "name": "Bus North of SRN",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_AME_Metro_2",
+      "name": "Bus South of AME",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_PUN_Metro_0",
+      "name": "Bus North of PUN",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_IRM_Metro_0",
+      "name": "Bus North of IRM",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_KHA_Metro_3",
+      "name": "Bus West of KHA",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_LKP_Metro_1",
+      "name": "Bus East of LKP",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_NAM_Metro_0",
+      "name": "Bus North of NAM",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_OMC_Metro_2",
+      "name": "Bus South of OMC",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_MGB_Metro_3",
+      "name": "Bus West of MGB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_MKL_Metro_3",
+      "name": "Bus West of MKL",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_CHP_Metro_3",
+      "name": "Bus West of CHP",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_VOM_Metro_0",
+      "name": "Bus North of VOM",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_VOM_Metro_3",
+      "name": "Bus West of VOM",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_LBN_Metro_1",
+      "name": "Bus East of LBN",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_NAR_Metro_2",
+      "name": "Bus South of NAR",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_MSH_Metro_1",
+      "name": "Bus East of MSH",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_GNH_Metro_2",
+      "name": "Bus South of GNH",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_JBS_Metro_1",
+      "name": "Bus East of JBS",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_UPL_Metro_1",
+      "name": "Bus East of UPL",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_HSG_Metro_1",
+      "name": "Bus East of HSG",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_HSG_Metro_3",
+      "name": "Bus West of HSG",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_TAR_Metro_0",
+      "name": "Bus North of TAR",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_TAR_Metro_3",
+      "name": "Bus West of TAR",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_MET_Metro_1",
+      "name": "Bus East of MET",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Bus_feeder_SEC_E_Metro_1",
+      "name": "Bus East of SEC_E",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R1_21",
+      "name": "Auto Stand R1-21",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R1_34",
+      "name": "Auto Stand R1-34",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R1_62",
+      "name": "Auto Stand R1-62",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R1_68",
+      "name": "Auto Stand R1-68",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R1_71",
+      "name": "Auto Stand R1-71",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R2_4",
+      "name": "Auto Stand R2-4",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R2_6",
+      "name": "Auto Stand R2-6",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R2_10",
+      "name": "Auto Stand R2-10",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R2_17",
+      "name": "Auto Stand R2-17",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R2_27",
+      "name": "Auto Stand R2-27",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R2_30",
+      "name": "Auto Stand R2-30",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R2_38",
+      "name": "Auto Stand R2-38",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R2_54",
+      "name": "Auto Stand R2-54",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R3_7",
+      "name": "Auto Stand R3-7",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R3_12",
+      "name": "Auto Stand R3-12",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R3_20",
+      "name": "Auto Stand R3-20",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R3_41",
+      "name": "Auto Stand R3-41",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R3_51",
+      "name": "Auto Stand R3-51",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R3_61",
+      "name": "Auto Stand R3-61",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R4_4",
+      "name": "Auto Stand R4-4",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R4_25",
+      "name": "Auto Stand R4-25",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R4_39",
+      "name": "Auto Stand R4-39",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R4_42",
+      "name": "Auto Stand R4-42",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R5_14",
+      "name": "Auto Stand R5-14",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R5_40",
+      "name": "Auto Stand R5-40",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R5_42",
+      "name": "Auto Stand R5-42",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R6_20",
+      "name": "Auto Stand R6-20",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R6_31",
+      "name": "Auto Stand R6-31",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R7_6",
+      "name": "Auto Stand R7-6",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 24
+    },
+    {
+      "id": "Auto_R7_19",
+      "name": "Auto Stand R7-19",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 24
+    },
+    {
+      "id": "MYP_Metro",
+      "name": "Miyapur",
+      "layer": "metro",
+      "region": "R5",
+      "degree": 22
+    },
+    {
+      "id": "JNT_Metro",
+      "name": "JNTU College",
+      "layer": "metro",
+      "region": "R5",
+      "degree": 22
+    },
+    {
+      "id": "Bus_Secunderabad",
+      "name": "Secunderabad Bus Hub",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Bus_Uppal",
+      "name": "Uppal Bus Hub",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 22
+    },
+    {
+      "id": "Bus_Jubilee_Hills",
+      "name": "Jubilee Hills Bus Hub",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 22
+    },
+    {
+      "id": "Bus_Tarnaka",
+      "name": "Tarnaka Bus Hub",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Bus_Malakpet",
+      "name": "Malakpet Bus Hub",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_HITEC_City",
+      "name": "HITEC City Bus Hub",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_BLR_Metro_1",
+      "name": "Bus East of BLR",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_BLR_Metro_2",
+      "name": "Bus South of BLR",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_BTN_Metro_0",
+      "name": "Bus North of BTN",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_ESI_Metro_1",
+      "name": "Bus East of ESI",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_AME_Metro_0",
+      "name": "Bus North of AME",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_PUN_Metro_3",
+      "name": "Bus West of PUN",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_IRM_Metro_1",
+      "name": "Bus East of IRM",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_IRM_Metro_2",
+      "name": "Bus South of IRM",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_ASM_Metro_1",
+      "name": "Bus East of ASM",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_NAM_Metro_2",
+      "name": "Bus South of NAM",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_GAB_Metro_0",
+      "name": "Bus North of GAB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_GAB_Metro_2",
+      "name": "Bus South of GAB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_GAB_Metro_3",
+      "name": "Bus West of GAB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_MKL_Metro_0",
+      "name": "Bus North of MKL",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_MKL_Metro_1",
+      "name": "Bus East of MKL",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_NEM_Metro_0",
+      "name": "Bus North of NEM",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_NEM_Metro_1",
+      "name": "Bus East of NEM",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_NEM_Metro_2",
+      "name": "Bus South of NEM",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_NEM_Metro_3",
+      "name": "Bus West of NEM",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_MSB_Metro_1",
+      "name": "Bus East of MSB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_DSN_Metro_2",
+      "name": "Bus South of DSN",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_CHP_Metro_2",
+      "name": "Bus South of CHP",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_SUB_Metro_1",
+      "name": "Bus East of SUB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_NAR_Metro_1",
+      "name": "Bus East of NAR",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_CDP_Metro_0",
+      "name": "Bus North of CDP",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_CDP_Metro_1",
+      "name": "Bus East of CDP",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_JBS_Metro_3",
+      "name": "Bus West of JBS",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_UPL_Metro_2",
+      "name": "Bus South of UPL",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_STD_Metro_1",
+      "name": "Bus East of STD",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_NGR_Metro_3",
+      "name": "Bus West of NGR",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_HSG_Metro_0",
+      "name": "Bus North of HSG",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_HSG_Metro_2",
+      "name": "Bus South of HSG",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 22
+    },
+    {
+      "id": "Bus_feeder_MET_Metro_2",
+      "name": "Bus South of MET",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R1_9",
+      "name": "Auto Stand R1-9",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R1_11",
+      "name": "Auto Stand R1-11",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R1_26",
+      "name": "Auto Stand R1-26",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R1_31",
+      "name": "Auto Stand R1-31",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R1_36",
+      "name": "Auto Stand R1-36",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R1_46",
+      "name": "Auto Stand R1-46",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R1_65",
+      "name": "Auto Stand R1-65",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R1_66",
+      "name": "Auto Stand R1-66",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R2_7",
+      "name": "Auto Stand R2-7",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R2_20",
+      "name": "Auto Stand R2-20",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R2_31",
+      "name": "Auto Stand R2-31",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R2_36",
+      "name": "Auto Stand R2-36",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R2_39",
+      "name": "Auto Stand R2-39",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R2_40",
+      "name": "Auto Stand R2-40",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R2_43",
+      "name": "Auto Stand R2-43",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R2_56",
+      "name": "Auto Stand R2-56",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R3_10",
+      "name": "Auto Stand R3-10",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R3_23",
+      "name": "Auto Stand R3-23",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R3_32",
+      "name": "Auto Stand R3-32",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R3_58",
+      "name": "Auto Stand R3-58",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R3_60",
+      "name": "Auto Stand R3-60",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R3_62",
+      "name": "Auto Stand R3-62",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R3_67",
+      "name": "Auto Stand R3-67",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R4_23",
+      "name": "Auto Stand R4-23",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R4_30",
+      "name": "Auto Stand R4-30",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R4_36",
+      "name": "Auto Stand R4-36",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R4_46",
+      "name": "Auto Stand R4-46",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R4_50",
+      "name": "Auto Stand R4-50",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R5_4",
+      "name": "Auto Stand R5-4",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R5_25",
+      "name": "Auto Stand R5-25",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R5_29",
+      "name": "Auto Stand R5-29",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R5_32",
+      "name": "Auto Stand R5-32",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R5_43",
+      "name": "Auto Stand R5-43",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R5_48",
+      "name": "Auto Stand R5-48",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R6_39",
+      "name": "Auto Stand R6-39",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R7_5",
+      "name": "Auto Stand R7-5",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R7_18",
+      "name": "Auto Stand R7-18",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R7_26",
+      "name": "Auto Stand R7-26",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R7_29",
+      "name": "Auto Stand R7-29",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R7_30",
+      "name": "Auto Stand R7-30",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 22
+    },
+    {
+      "id": "Auto_R7_34",
+      "name": "Auto Stand R7-34",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 22
+    },
+    {
+      "id": "Bus_Kukatpally",
+      "name": "Kukatpally Bus Hub",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 20
+    },
+    {
+      "id": "Bus_LB_Nagar",
+      "name": "LB Nagar Bus Hub",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 20
+    },
+    {
+      "id": "Bus_Musheerabad",
+      "name": "Musheerabad Bus Hub",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_MYP_Metro_1",
+      "name": "Bus East of MYP",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_JNT_Metro_3",
+      "name": "Bus West of JNT",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_KPH_Metro_3",
+      "name": "Bus West of KPH",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_KUK_Metro_0",
+      "name": "Bus North of KUK",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_KUK_Metro_2",
+      "name": "Bus South of KUK",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_KUK_Metro_3",
+      "name": "Bus West of KUK",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_ESI_Metro_0",
+      "name": "Bus North of ESI",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_PUN_Metro_1",
+      "name": "Bus East of PUN",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_PUN_Metro_2",
+      "name": "Bus South of PUN",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_KHA_Metro_0",
+      "name": "Bus North of KHA",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_MKL_Metro_2",
+      "name": "Bus South of MKL",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_DSN_Metro_0",
+      "name": "Bus North of DSN",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_DSN_Metro_1",
+      "name": "Bus East of DSN",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_DSN_Metro_3",
+      "name": "Bus West of DSN",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_LBN_Metro_2",
+      "name": "Bus South of LBN",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_NAR_Metro_0",
+      "name": "Bus North of NAR",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_RTC_Metro_1",
+      "name": "Bus East of RTC",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_RTC_Metro_2",
+      "name": "Bus South of RTC",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_MSH_Metro_2",
+      "name": "Bus South of MSH",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_MSH_Metro_3",
+      "name": "Bus West of MSH",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_GNH_Metro_1",
+      "name": "Bus East of GNH",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_JBS_Metro_0",
+      "name": "Bus North of JBS",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_NAG_Metro_0",
+      "name": "Bus North of NAG",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_STD_Metro_3",
+      "name": "Bus West of STD",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_NGR_Metro_0",
+      "name": "Bus North of NGR",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_NGR_Metro_1",
+      "name": "Bus East of NGR",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_NGR_Metro_2",
+      "name": "Bus South of NGR",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_TAR_Metro_1",
+      "name": "Bus East of TAR",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 20
+    },
+    {
+      "id": "Bus_feeder_MET_Metro_3",
+      "name": "Bus West of MET",
+      "layer": "bus",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R1_7",
+      "name": "Auto Stand R1-7",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R1_12",
+      "name": "Auto Stand R1-12",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R1_17",
+      "name": "Auto Stand R1-17",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R1_18",
+      "name": "Auto Stand R1-18",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R1_30",
+      "name": "Auto Stand R1-30",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R1_44",
+      "name": "Auto Stand R1-44",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R1_45",
+      "name": "Auto Stand R1-45",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R1_47",
+      "name": "Auto Stand R1-47",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R1_48",
+      "name": "Auto Stand R1-48",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R1_61",
+      "name": "Auto Stand R1-61",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R2_16",
+      "name": "Auto Stand R2-16",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R2_21",
+      "name": "Auto Stand R2-21",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R2_37",
+      "name": "Auto Stand R2-37",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R2_52",
+      "name": "Auto Stand R2-52",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R3_15",
+      "name": "Auto Stand R3-15",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R3_34",
+      "name": "Auto Stand R3-34",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R3_35",
+      "name": "Auto Stand R3-35",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R3_36",
+      "name": "Auto Stand R3-36",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R3_39",
+      "name": "Auto Stand R3-39",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R3_42",
+      "name": "Auto Stand R3-42",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R3_43",
+      "name": "Auto Stand R3-43",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R3_48",
+      "name": "Auto Stand R3-48",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R3_68",
+      "name": "Auto Stand R3-68",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R4_2",
+      "name": "Auto Stand R4-2",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R4_19",
+      "name": "Auto Stand R4-19",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R4_27",
+      "name": "Auto Stand R4-27",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R4_29",
+      "name": "Auto Stand R4-29",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R4_44",
+      "name": "Auto Stand R4-44",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R4_47",
+      "name": "Auto Stand R4-47",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R4_48",
+      "name": "Auto Stand R4-48",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R5_36",
+      "name": "Auto Stand R5-36",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R5_37",
+      "name": "Auto Stand R5-37",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R6_8",
+      "name": "Auto Stand R6-8",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R6_11",
+      "name": "Auto Stand R6-11",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R6_28",
+      "name": "Auto Stand R6-28",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R6_29",
+      "name": "Auto Stand R6-29",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R7_3",
+      "name": "Auto Stand R7-3",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R7_13",
+      "name": "Auto Stand R7-13",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R7_23",
+      "name": "Auto Stand R7-23",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R7_28",
+      "name": "Auto Stand R7-28",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 20
+    },
+    {
+      "id": "Auto_R7_35",
+      "name": "Auto Stand R7-35",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 20
+    },
+    {
+      "id": "PED_Metro",
+      "name": "Peddamma Gudi",
+      "layer": "metro",
+      "region": "R4",
+      "degree": 18
+    },
+    {
+      "id": "LGDH_MMTS",
+      "name": "LALAGUDA GATE",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Bus_Begumpet",
+      "name": "Begumpet Bus Hub",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Bus_Kacheguda",
+      "name": "Kacheguda Bus Hub",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 18
+    },
+    {
+      "id": "Bus_KPHB",
+      "name": "KPHB Bus Hub",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_MYP_Metro_2",
+      "name": "Bus South of MYP",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_MYP_Metro_3",
+      "name": "Bus West of MYP",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_JNT_Metro_0",
+      "name": "Bus North of JNT",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_KPH_Metro_0",
+      "name": "Bus North of KPH",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_KPH_Metro_1",
+      "name": "Bus East of KPH",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_MSP_Metro_1",
+      "name": "Bus East of MSP",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_MSB_Metro_0",
+      "name": "Bus North of MSB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_MSB_Metro_2",
+      "name": "Bus South of MSB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_MSB_Metro_3",
+      "name": "Bus West of MSB",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_CHP_Metro_1",
+      "name": "Bus East of CHP",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_LBN_Metro_0",
+      "name": "Bus North of LBN",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_LBN_Metro_3",
+      "name": "Bus West of LBN",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_RTC_Metro_0",
+      "name": "Bus North of RTC",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_RTC_Metro_3",
+      "name": "Bus West of RTC",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_NAG_Metro_1",
+      "name": "Bus East of NAG",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_NAG_Metro_2",
+      "name": "Bus South of NAG",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_NAG_Metro_3",
+      "name": "Bus West of NAG",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_UPL_Metro_0",
+      "name": "Bus North of UPL",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_STD_Metro_0",
+      "name": "Bus North of STD",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_STD_Metro_2",
+      "name": "Bus South of STD",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Bus_feeder_TAR_Metro_2",
+      "name": "Bus South of TAR",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R1_1",
+      "name": "Auto Stand R1-1",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R1_3",
+      "name": "Auto Stand R1-3",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R1_5",
+      "name": "Auto Stand R1-5",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R1_14",
+      "name": "Auto Stand R1-14",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R1_24",
+      "name": "Auto Stand R1-24",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R1_25",
+      "name": "Auto Stand R1-25",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R1_33",
+      "name": "Auto Stand R1-33",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R1_35",
+      "name": "Auto Stand R1-35",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R1_49",
+      "name": "Auto Stand R1-49",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R1_51",
+      "name": "Auto Stand R1-51",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R1_72",
+      "name": "Auto Stand R1-72",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R2_11",
+      "name": "Auto Stand R2-11",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R2_26",
+      "name": "Auto Stand R2-26",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R2_29",
+      "name": "Auto Stand R2-29",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R2_32",
+      "name": "Auto Stand R2-32",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R2_34",
+      "name": "Auto Stand R2-34",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R2_42",
+      "name": "Auto Stand R2-42",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R2_50",
+      "name": "Auto Stand R2-50",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_26",
+      "name": "Auto Stand R3-26",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_27",
+      "name": "Auto Stand R3-27",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_28",
+      "name": "Auto Stand R3-28",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_29",
+      "name": "Auto Stand R3-29",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_30",
+      "name": "Auto Stand R3-30",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_38",
+      "name": "Auto Stand R3-38",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_45",
+      "name": "Auto Stand R3-45",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_47",
+      "name": "Auto Stand R3-47",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_50",
+      "name": "Auto Stand R3-50",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_54",
+      "name": "Auto Stand R3-54",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_64",
+      "name": "Auto Stand R3-64",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_65",
+      "name": "Auto Stand R3-65",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R3_66",
+      "name": "Auto Stand R3-66",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R4_3",
+      "name": "Auto Stand R4-3",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R4_6",
+      "name": "Auto Stand R4-6",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R4_13",
+      "name": "Auto Stand R4-13",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R4_14",
+      "name": "Auto Stand R4-14",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R4_22",
+      "name": "Auto Stand R4-22",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R4_43",
+      "name": "Auto Stand R4-43",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R4_51",
+      "name": "Auto Stand R4-51",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R5_6",
+      "name": "Auto Stand R5-6",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R5_9",
+      "name": "Auto Stand R5-9",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R5_12",
+      "name": "Auto Stand R5-12",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R5_17",
+      "name": "Auto Stand R5-17",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R5_28",
+      "name": "Auto Stand R5-28",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R5_41",
+      "name": "Auto Stand R5-41",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R5_44",
+      "name": "Auto Stand R5-44",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R5_47",
+      "name": "Auto Stand R5-47",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R6_5",
+      "name": "Auto Stand R6-5",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R6_6",
+      "name": "Auto Stand R6-6",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R6_14",
+      "name": "Auto Stand R6-14",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R6_15",
+      "name": "Auto Stand R6-15",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R6_21",
+      "name": "Auto Stand R6-21",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R6_23",
+      "name": "Auto Stand R6-23",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R6_24",
+      "name": "Auto Stand R6-24",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R6_25",
+      "name": "Auto Stand R6-25",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R6_33",
+      "name": "Auto Stand R6-33",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R6_37",
+      "name": "Auto Stand R6-37",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R6_40",
+      "name": "Auto Stand R6-40",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R7_15",
+      "name": "Auto Stand R7-15",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 18
+    },
+    {
+      "id": "Auto_R7_32",
+      "name": "Auto Stand R7-32",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 18
+    },
+    {
+      "id": "JCP_Metro",
+      "name": "Jubilee Hills Checkpost",
+      "layer": "metro",
+      "region": "R4",
+      "degree": 16
+    },
+    {
+      "id": "HTC_Metro",
+      "name": "HITEC City",
+      "layer": "metro",
+      "region": "R4",
+      "degree": 16
+    },
+    {
+      "id": "Bus_Miyapur",
+      "name": "Miyapur Bus Hub",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Bus_feeder_MYP_Metro_0",
+      "name": "Bus North of MYP",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Bus_feeder_JNT_Metro_1",
+      "name": "Bus East of JNT",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Bus_feeder_KPH_Metro_2",
+      "name": "Bus South of KPH",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Bus_feeder_KUK_Metro_1",
+      "name": "Bus East of KUK",
+      "layer": "bus",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Bus_feeder_IRM_Metro_3",
+      "name": "Bus West of IRM",
+      "layer": "bus",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Bus_feeder_CHP_Metro_0",
+      "name": "Bus North of CHP",
+      "layer": "bus",
+      "region": "R7",
+      "degree": 16
+    },
+    {
+      "id": "Bus_feeder_NAR_Metro_3",
+      "name": "Bus West of NAR",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R1_15",
+      "name": "Auto Stand R1-15",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R1_23",
+      "name": "Auto Stand R1-23",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R1_29",
+      "name": "Auto Stand R1-29",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R1_38",
+      "name": "Auto Stand R1-38",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R1_43",
+      "name": "Auto Stand R1-43",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R1_53",
+      "name": "Auto Stand R1-53",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R1_54",
+      "name": "Auto Stand R1-54",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R1_57",
+      "name": "Auto Stand R1-57",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R1_59",
+      "name": "Auto Stand R1-59",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R1_63",
+      "name": "Auto Stand R1-63",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R1_64",
+      "name": "Auto Stand R1-64",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R2_14",
+      "name": "Auto Stand R2-14",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R2_22",
+      "name": "Auto Stand R2-22",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R2_23",
+      "name": "Auto Stand R2-23",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R2_24",
+      "name": "Auto Stand R2-24",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R2_28",
+      "name": "Auto Stand R2-28",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R2_49",
+      "name": "Auto Stand R2-49",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_2",
+      "name": "Auto Stand R3-2",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_3",
+      "name": "Auto Stand R3-3",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_6",
+      "name": "Auto Stand R3-6",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_8",
+      "name": "Auto Stand R3-8",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_9",
+      "name": "Auto Stand R3-9",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_11",
+      "name": "Auto Stand R3-11",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_13",
+      "name": "Auto Stand R3-13",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_16",
+      "name": "Auto Stand R3-16",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_18",
+      "name": "Auto Stand R3-18",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_19",
+      "name": "Auto Stand R3-19",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_21",
+      "name": "Auto Stand R3-21",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_31",
+      "name": "Auto Stand R3-31",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_33",
+      "name": "Auto Stand R3-33",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_49",
+      "name": "Auto Stand R3-49",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_52",
+      "name": "Auto Stand R3-52",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_57",
+      "name": "Auto Stand R3-57",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_59",
+      "name": "Auto Stand R3-59",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R3_63",
+      "name": "Auto Stand R3-63",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R4_17",
+      "name": "Auto Stand R4-17",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R4_34",
+      "name": "Auto Stand R4-34",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R4_35",
+      "name": "Auto Stand R4-35",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R4_38",
+      "name": "Auto Stand R4-38",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R4_41",
+      "name": "Auto Stand R4-41",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R5_2",
+      "name": "Auto Stand R5-2",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R5_8",
+      "name": "Auto Stand R5-8",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R5_13",
+      "name": "Auto Stand R5-13",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R5_19",
+      "name": "Auto Stand R5-19",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R5_22",
+      "name": "Auto Stand R5-22",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R5_23",
+      "name": "Auto Stand R5-23",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R5_33",
+      "name": "Auto Stand R5-33",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R5_39",
+      "name": "Auto Stand R5-39",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R6_1",
+      "name": "Auto Stand R6-1",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R6_2",
+      "name": "Auto Stand R6-2",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R6_7",
+      "name": "Auto Stand R6-7",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R6_10",
+      "name": "Auto Stand R6-10",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R6_16",
+      "name": "Auto Stand R6-16",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R6_22",
+      "name": "Auto Stand R6-22",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R6_27",
+      "name": "Auto Stand R6-27",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R6_32",
+      "name": "Auto Stand R6-32",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R6_34",
+      "name": "Auto Stand R6-34",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R6_35",
+      "name": "Auto Stand R6-35",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R7_2",
+      "name": "Auto Stand R7-2",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R7_4",
+      "name": "Auto Stand R7-4",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R7_9",
+      "name": "Auto Stand R7-9",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R7_12",
+      "name": "Auto Stand R7-12",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R7_14",
+      "name": "Auto Stand R7-14",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R7_16",
+      "name": "Auto Stand R7-16",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R7_17",
+      "name": "Auto Stand R7-17",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R7_27",
+      "name": "Auto Stand R7-27",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R7_31",
+      "name": "Auto Stand R7-31",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 16
+    },
+    {
+      "id": "Auto_R7_33",
+      "name": "Auto Stand R7-33",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 16
+    },
+    {
+      "id": "DGC_Metro",
+      "name": "Durgam Cheruvu",
+      "layer": "metro",
+      "region": "R4",
+      "degree": 14
+    },
+    {
+      "id": "Bus_Mehdipatnam",
+      "name": "Mehdipatnam Bus Hub",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Bus_Charminar",
+      "name": "Charminar Bus Hub",
+      "layer": "bus",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R1_6",
+      "name": "Auto Stand R1-6",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R1_19",
+      "name": "Auto Stand R1-19",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R1_20",
+      "name": "Auto Stand R1-20",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R1_22",
+      "name": "Auto Stand R1-22",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R1_32",
+      "name": "Auto Stand R1-32",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R1_50",
+      "name": "Auto Stand R1-50",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R1_55",
+      "name": "Auto Stand R1-55",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R1_58",
+      "name": "Auto Stand R1-58",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R1_69",
+      "name": "Auto Stand R1-69",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R1_70",
+      "name": "Auto Stand R1-70",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R2_1",
+      "name": "Auto Stand R2-1",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R2_15",
+      "name": "Auto Stand R2-15",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R2_18",
+      "name": "Auto Stand R2-18",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R2_19",
+      "name": "Auto Stand R2-19",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R2_33",
+      "name": "Auto Stand R2-33",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R2_35",
+      "name": "Auto Stand R2-35",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R2_46",
+      "name": "Auto Stand R2-46",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R2_47",
+      "name": "Auto Stand R2-47",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R2_48",
+      "name": "Auto Stand R2-48",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R2_53",
+      "name": "Auto Stand R2-53",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R2_55",
+      "name": "Auto Stand R2-55",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R3_4",
+      "name": "Auto Stand R3-4",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R3_22",
+      "name": "Auto Stand R3-22",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R3_40",
+      "name": "Auto Stand R3-40",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R3_44",
+      "name": "Auto Stand R3-44",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R3_46",
+      "name": "Auto Stand R3-46",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R3_55",
+      "name": "Auto Stand R3-55",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R3_56",
+      "name": "Auto Stand R3-56",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R4_10",
+      "name": "Auto Stand R4-10",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R4_12",
+      "name": "Auto Stand R4-12",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R4_15",
+      "name": "Auto Stand R4-15",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R4_18",
+      "name": "Auto Stand R4-18",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R4_20",
+      "name": "Auto Stand R4-20",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R4_21",
+      "name": "Auto Stand R4-21",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R4_24",
+      "name": "Auto Stand R4-24",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R4_28",
+      "name": "Auto Stand R4-28",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R4_49",
+      "name": "Auto Stand R4-49",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R4_52",
+      "name": "Auto Stand R4-52",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R5_11",
+      "name": "Auto Stand R5-11",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R5_15",
+      "name": "Auto Stand R5-15",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R5_16",
+      "name": "Auto Stand R5-16",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R5_21",
+      "name": "Auto Stand R5-21",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R5_24",
+      "name": "Auto Stand R5-24",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R5_26",
+      "name": "Auto Stand R5-26",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R5_27",
+      "name": "Auto Stand R5-27",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R5_31",
+      "name": "Auto Stand R5-31",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R5_34",
+      "name": "Auto Stand R5-34",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R5_35",
+      "name": "Auto Stand R5-35",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R5_38",
+      "name": "Auto Stand R5-38",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R6_9",
+      "name": "Auto Stand R6-9",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R6_12",
+      "name": "Auto Stand R6-12",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R6_13",
+      "name": "Auto Stand R6-13",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R6_17",
+      "name": "Auto Stand R6-17",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R6_18",
+      "name": "Auto Stand R6-18",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R6_19",
+      "name": "Auto Stand R6-19",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R6_26",
+      "name": "Auto Stand R6-26",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R6_36",
+      "name": "Auto Stand R6-36",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R6_38",
+      "name": "Auto Stand R6-38",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R7_1",
+      "name": "Auto Stand R7-1",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R7_7",
+      "name": "Auto Stand R7-7",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R7_8",
+      "name": "Auto Stand R7-8",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R7_10",
+      "name": "Auto Stand R7-10",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R7_11",
+      "name": "Auto Stand R7-11",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R7_20",
+      "name": "Auto Stand R7-20",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R7_21",
+      "name": "Auto Stand R7-21",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R7_22",
+      "name": "Auto Stand R7-22",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 14
+    },
+    {
+      "id": "Auto_R7_25",
+      "name": "Auto Stand R7-25",
+      "layer": "auto",
+      "region": "R7",
+      "degree": 14
+    },
+    {
+      "id": "PAR_Metro",
+      "name": "Paradise",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "BEG_Metro",
+      "name": "Begumpet",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 12
+    },
+    {
+      "id": "YUG_Metro",
+      "name": "Yusufguda",
+      "layer": "metro",
+      "region": "R4",
+      "degree": 12
+    },
+    {
+      "id": "JR5_Metro",
+      "name": "Road No 5 Jubilee Hills",
+      "layer": "metro",
+      "region": "R4",
+      "degree": 12
+    },
+    {
+      "id": "KCG_MMTS",
+      "name": "KACHEGUDA",
+      "layer": "mmts",
+      "region": "R2",
+      "degree": 12
+    },
+    {
+      "id": "NLRD_MMTS",
+      "name": "NECKLACE ROAD",
+      "layer": "mmts",
+      "region": "R3",
+      "degree": 12
+    },
+    {
+      "id": "JOO_MMTS",
+      "name": "JAMAI OSMANIA",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "ATC_MMTS",
+      "name": "ARTS COLLEGE",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "JET_MMTS",
+      "name": "JAMES STREET",
+      "layer": "mmts",
+      "region": "R3",
+      "degree": 12
+    },
+    {
+      "id": "SJVP_MMTS",
+      "name": "SANJEEVAIAH PARK",
+      "layer": "mmts",
+      "region": "R3",
+      "degree": 12
+    },
+    {
+      "id": "Bus_Gachibowli",
+      "name": "Gachibowli Bus Hub",
+      "layer": "bus",
+      "region": "R4",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R1_2",
+      "name": "Auto Stand R1-2",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R1_4",
+      "name": "Auto Stand R1-4",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R1_8",
+      "name": "Auto Stand R1-8",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R1_10",
+      "name": "Auto Stand R1-10",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R1_16",
+      "name": "Auto Stand R1-16",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R1_37",
+      "name": "Auto Stand R1-37",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R1_39",
+      "name": "Auto Stand R1-39",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R1_41",
+      "name": "Auto Stand R1-41",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R1_56",
+      "name": "Auto Stand R1-56",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R1_67",
+      "name": "Auto Stand R1-67",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R2_5",
+      "name": "Auto Stand R2-5",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R3_5",
+      "name": "Auto Stand R3-5",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R3_14",
+      "name": "Auto Stand R3-14",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R3_17",
+      "name": "Auto Stand R3-17",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R3_24",
+      "name": "Auto Stand R3-24",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R3_25",
+      "name": "Auto Stand R3-25",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R3_53",
+      "name": "Auto Stand R3-53",
+      "layer": "auto",
+      "region": "R3",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R4_7",
+      "name": "Auto Stand R4-7",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R4_8",
+      "name": "Auto Stand R4-8",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R4_9",
+      "name": "Auto Stand R4-9",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R4_11",
+      "name": "Auto Stand R4-11",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R4_26",
+      "name": "Auto Stand R4-26",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R4_32",
+      "name": "Auto Stand R4-32",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R4_37",
+      "name": "Auto Stand R4-37",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 12
+    },
+    {
+      "id": "Auto_R4_40",
+      "name": "Auto Stand R4-40",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 12
+    },
+    {
+      "id": "ROP_Metro",
+      "name": "Rasoolpura",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 10
+    },
+    {
+      "id": "PRN_Metro",
+      "name": "Prakash Nagar",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 10
+    },
+    {
+      "id": "RDG_Metro",
+      "name": "Raidurg",
+      "layer": "metro",
+      "region": "R4",
+      "degree": 10
+    },
+    {
+      "id": "GWV_MMTS",
+      "name": "GOWDAVALLI",
+      "layer": "mmts",
+      "region": "R5",
+      "degree": 10
+    },
+    {
+      "id": "NCHS_MMTS",
+      "name": "NATURE CURE HOSPITAL",
+      "layer": "mmts",
+      "region": "R3",
+      "degree": 10
+    },
+    {
+      "id": "Bus_ECIL",
+      "name": "ECIL Bus Hub",
+      "layer": "bus",
+      "region": "R6",
+      "degree": 10
+    },
+    {
+      "id": "Auto_R1_13",
+      "name": "Auto Stand R1-13",
+      "layer": "auto",
+      "region": "R1",
+      "degree": 10
+    },
+    {
+      "id": "Auto_R2_13",
+      "name": "Auto Stand R2-13",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 10
+    },
+    {
+      "id": "Auto_R4_1",
+      "name": "Auto Stand R4-1",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 10
+    },
+    {
+      "id": "Auto_R4_33",
+      "name": "Auto Stand R4-33",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 10
+    },
+    {
+      "id": "Auto_R5_3",
+      "name": "Auto Stand R5-3",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 10
+    },
+    {
+      "id": "Auto_R5_5",
+      "name": "Auto Stand R5-5",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 10
+    },
+    {
+      "id": "Auto_R5_46",
+      "name": "Auto Stand R5-46",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 10
+    },
+    {
+      "id": "Auto_R6_3",
+      "name": "Auto Stand R6-3",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 10
+    },
+    {
+      "id": "MAD_Metro",
+      "name": "Madhapur",
+      "layer": "metro",
+      "region": "R4",
+      "degree": 8
+    },
+    {
+      "id": "TLPR_MMTS",
+      "name": "TELAPUR",
+      "layer": "mmts",
+      "region": "R4",
+      "degree": 8
+    },
+    {
+      "id": "LPI_MMTS",
+      "name": "LINGAMPALLI",
+      "layer": "mmts",
+      "region": "R4",
+      "degree": 8
+    },
+    {
+      "id": "BMT_MMTS",
+      "name": "BEGUMPET",
+      "layer": "mmts",
+      "region": "R3",
+      "degree": 8
+    },
+    {
+      "id": "MJF_MMTS",
+      "name": "MALKAJGIRI",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 8
+    },
+    {
+      "id": "BRBD_MMTS",
+      "name": "BORABANDA",
+      "layer": "mmts",
+      "region": "R4",
+      "degree": 8
+    },
+    {
+      "id": "HTCY_MMTS",
+      "name": "HITECH CITY",
+      "layer": "mmts",
+      "region": "R4",
+      "degree": 8
+    },
+    {
+      "id": "YKA_MMTS",
+      "name": "YAKUTPURA",
+      "layer": "mmts",
+      "region": "R2",
+      "degree": 8
+    },
+    {
+      "id": "DQR_MMTS",
+      "name": "DABIRPURA",
+      "layer": "mmts",
+      "region": "R2",
+      "degree": 8
+    },
+    {
+      "id": "DYE_MMTS",
+      "name": "DAYANAND NAGAR",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 8
+    },
+    {
+      "id": "SFX_MMTS",
+      "name": "SAFILGUDA",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 8
+    },
+    {
+      "id": "RKO_MMTS",
+      "name": "RMKRSHNAPRM GTE",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 8
+    },
+    {
+      "id": "AMQ_MMTS",
+      "name": "AMMUGUDA",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 8
+    },
+    {
+      "id": "CVB_MMTS",
+      "name": "CAVALRY BARRCKS",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 8
+    },
+    {
+      "id": "ALW_MMTS",
+      "name": "ALWAL HALT",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 8
+    },
+    {
+      "id": "BOZ_MMTS",
+      "name": "BOLARUM BAZAR",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 8
+    },
+    {
+      "id": "NSVP_MMTS",
+      "name": "NPA SHIVRAMPALLI",
+      "layer": "mmts",
+      "region": "R2",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R2_2",
+      "name": "Auto Stand R2-2",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R2_8",
+      "name": "Auto Stand R2-8",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R2_9",
+      "name": "Auto Stand R2-9",
+      "layer": "auto",
+      "region": "R2",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R4_5",
+      "name": "Auto Stand R4-5",
+      "layer": "auto",
+      "region": "R4",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R5_1",
+      "name": "Auto Stand R5-1",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R5_7",
+      "name": "Auto Stand R5-7",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R5_10",
+      "name": "Auto Stand R5-10",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R5_18",
+      "name": "Auto Stand R5-18",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R5_30",
+      "name": "Auto Stand R5-30",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R5_45",
+      "name": "Auto Stand R5-45",
+      "layer": "auto",
+      "region": "R5",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R6_4",
+      "name": "Auto Stand R6-4",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 8
+    },
+    {
+      "id": "Auto_R6_30",
+      "name": "Auto Stand R6-30",
+      "layer": "auto",
+      "region": "R6",
+      "degree": 8
+    },
+    {
+      "id": "RCPT_MMTS",
+      "name": "RAMACHANDRAPURAM TS",
+      "layer": "mmts",
+      "region": "R5",
+      "degree": 6
+    },
+    {
+      "id": "BHEL_MMTS",
+      "name": "BHEL HALT",
+      "layer": "mmts",
+      "region": "R5",
+      "degree": 6
+    },
+    {
+      "id": "UR_MMTS",
+      "name": "UMDANAGAR",
+      "layer": "mmts",
+      "region": "R2",
+      "degree": 6
+    },
+    {
+      "id": "MED_MMTS",
+      "name": "MEDCHAL",
+      "layer": "mmts",
+      "region": "R5",
+      "degree": 6
+    },
+    {
+      "id": "FM_MMTS",
+      "name": "FALAKNUMA",
+      "layer": "mmts",
+      "region": "R2",
+      "degree": 6
+    },
+    {
+      "id": "BDVL_MMTS",
+      "name": "BUDVEL",
+      "layer": "mmts",
+      "region": "R2",
+      "degree": 6
+    },
+    {
+      "id": "BMO_MMTS",
+      "name": "BOLARUM",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 6
+    },
+    {
+      "id": "CHZ_MMTS",
+      "name": "CHARLAPALLI",
+      "layer": "mmts",
+      "region": "R6",
+      "degree": 6
+    },
+    {
+      "id": "FNB_MMTS",
+      "name": "FATEHNAGAR",
+      "layer": "mmts",
+      "region": "R3",
+      "degree": 6
+    },
+    {
+      "id": "HFZ_MMTS",
+      "name": "HAFIZPETA",
+      "layer": "mmts",
+      "region": "R5",
+      "degree": 6
+    },
+    {
+      "id": "CDNR_MMTS",
+      "name": "CHANDANAGAR",
+      "layer": "mmts",
+      "region": "R5",
+      "degree": 6
+    },
+    {
+      "id": "HPG_MMTS",
+      "name": "HUPPUGUDA",
+      "layer": "mmts",
+      "region": "R2",
+      "degree": 6
+    },
+    {
+      "id": "VAR_MMTS",
+      "name": "VIDYA NAGAR",
+      "layer": "mmts",
+      "region": "R3",
+      "degree": 6
+    },
+    {
+      "id": "GDPL_MMTS",
+      "name": "G POCHAMPALLI",
+      "layer": "mmts",
+      "region": "R5",
+      "degree": 4
+    }
+  ],
+  "top_connected_nodes": [
+    {
+      "id": "SC_MMTS",
+      "name": "SECUNDERABAD",
+      "layer": "mmts",
+      "region": "R1",
+      "degree": 66
+    },
+    {
+      "id": "MGB_Metro",
+      "name": "Mahatma Gandhi Bus Station",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 62
+    },
+    {
+      "id": "ERA_Metro",
+      "name": "Erragadda",
+      "layer": "metro",
+      "region": "R4",
+      "degree": 60
+    },
+    {
+      "id": "OMC_Metro",
+      "name": "Osmania Medical College",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 60
+    },
+    {
+      "id": "SUB_Metro",
+      "name": "Sultan Bazar",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 58
+    },
+    {
+      "id": "BTN_Metro",
+      "name": "Bharat Nagar",
+      "layer": "metro",
+      "region": "R5",
+      "degree": 56
+    },
+    {
+      "id": "BTNR_MMTS",
+      "name": "BHARATNAGAR",
+      "layer": "mmts",
+      "region": "R4",
+      "degree": 56
+    },
+    {
+      "id": "AME_Metro",
+      "name": "Ameerpet",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 54
+    },
+    {
+      "id": "SCR_Metro",
+      "name": "Secunderabad West",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 52
+    },
+    {
+      "id": "ESI_Metro",
+      "name": "ESI Hospital",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 50
+    },
+    {
+      "id": "ASM_Metro",
+      "name": "Assembly",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 48
+    },
+    {
+      "id": "GNH_Metro",
+      "name": "Gandhi Hospital",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 48
+    },
+    {
+      "id": "MSP_Metro",
+      "name": "Moosapet",
+      "layer": "metro",
+      "region": "R5",
+      "degree": 46
+    },
+    {
+      "id": "SRN_Metro",
+      "name": "S. R. Nagar",
+      "layer": "metro",
+      "region": "R3",
+      "degree": 46
+    },
+    {
+      "id": "GAB_Metro",
+      "name": "Gandhi Bhavan",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 46
+    },
+    {
+      "id": "NAM_Metro",
+      "name": "Nampally",
+      "layer": "metro",
+      "region": "R2",
+      "degree": 44
+    },
+    {
+      "id": "SEC_E_Metro",
+      "name": "Secunderabad East",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 44
+    },
+    {
+      "id": "HSG_Metro",
+      "name": "Habsiguda",
+      "layer": "metro",
+      "region": "R6",
+      "degree": 42
+    },
+    {
+      "id": "PRG_Metro",
+      "name": "Parade Ground",
+      "layer": "metro",
+      "region": "R1",
+      "degree": 42
+    },
+    {
+      "id": "HYB_MMTS",
+      "name": "HYDERABAD",
+      "layer": "mmts",
+      "region": "R2",
+      "degree": 42
+    }
+  ],
+  "complex_networks": {
+    "scale_free": {
+      "is_scale_free": false,
+      "gamma": 0.3534,
+      "gamma_loglog": 1.197,
+      "r_squared": 0.0942,
+      "r_squared_loglog": 0.2893,
+      "ks_statistic": 0.3507,
+      "criteria_passed": 0,
+      "criteria_total": 3
+    },
+    "degree_distribution": [
+      {
+        "degree": 4,
+        "count": 1,
+        "probability": 0.001481
+      },
+      {
+        "degree": 6,
+        "count": 13,
+        "probability": 0.019259
+      },
+      {
+        "degree": 8,
+        "count": 29,
+        "probability": 0.042963
+      },
+      {
+        "degree": 10,
+        "count": 14,
+        "probability": 0.020741
+      },
+      {
+        "degree": 12,
+        "count": 36,
+        "probability": 0.053333
+      },
+      {
+        "degree": 14,
+        "count": 70,
+        "probability": 0.103704
+      },
+      {
+        "degree": 16,
+        "count": 78,
+        "probability": 0.115556
+      },
+      {
+        "degree": 18,
+        "count": 85,
+        "probability": 0.125926
+      },
+      {
+        "degree": 20,
+        "count": 73,
+        "probability": 0.108148
+      },
+      {
+        "degree": 22,
+        "count": 82,
+        "probability": 0.121481
+      },
+      {
+        "degree": 24,
+        "count": 63,
+        "probability": 0.093333
+      },
+      {
+        "degree": 26,
+        "count": 40,
+        "probability": 0.059259
+      },
+      {
+        "degree": 28,
+        "count": 30,
+        "probability": 0.044444
+      },
+      {
+        "degree": 30,
+        "count": 6,
+        "probability": 0.008889
+      },
+      {
+        "degree": 32,
+        "count": 13,
+        "probability": 0.019259
+      },
+      {
+        "degree": 34,
+        "count": 5,
+        "probability": 0.007407
+      },
+      {
+        "degree": 36,
+        "count": 6,
+        "probability": 0.008889
+      },
+      {
+        "degree": 38,
+        "count": 4,
+        "probability": 0.005926
+      },
+      {
+        "degree": 40,
+        "count": 7,
+        "probability": 0.01037
+      },
+      {
+        "degree": 42,
+        "count": 3,
+        "probability": 0.004444
+      },
+      {
+        "degree": 44,
+        "count": 2,
+        "probability": 0.002963
+      },
+      {
+        "degree": 46,
+        "count": 3,
+        "probability": 0.004444
+      },
+      {
+        "degree": 48,
+        "count": 2,
+        "probability": 0.002963
+      },
+      {
+        "degree": 50,
+        "count": 1,
+        "probability": 0.001481
+      },
+      {
+        "degree": 52,
+        "count": 1,
+        "probability": 0.001481
+      },
+      {
+        "degree": 54,
+        "count": 1,
+        "probability": 0.001481
+      },
+      {
+        "degree": 56,
+        "count": 2,
+        "probability": 0.002963
+      },
+      {
+        "degree": 58,
+        "count": 1,
+        "probability": 0.001481
+      },
+      {
+        "degree": 60,
+        "count": 2,
+        "probability": 0.002963
+      },
+      {
+        "degree": 62,
+        "count": 1,
+        "probability": 0.001481
+      },
+      {
+        "degree": 66,
+        "count": 1,
+        "probability": 0.001481
+      }
+    ],
+    "avg_degree": 10.17,
+    "max_degree": 33,
+    "min_degree": 2,
+    "clustering_coefficient": 0.5241,
+    "clustering_by_layer": {
+      "metro": 0.4067,
+      "mmts": 0.2185,
+      "bus": 0.5364,
+      "auto": 0.5732
+    },
+    "avg_shortest_path": 8.81,
+    "diameter_estimate": 23,
+    "path_length_distribution": [
+      {
+        "length": 1,
+        "count": 5,
+        "probability": 0.01
+      },
+      {
+        "length": 2,
+        "count": 15,
+        "probability": 0.03
+      },
+      {
+        "length": 3,
+        "count": 27,
+        "probability": 0.054
+      },
+      {
+        "length": 4,
+        "count": 26,
+        "probability": 0.052
+      },
+      {
+        "length": 5,
+        "count": 53,
+        "probability": 0.106
+      },
+      {
+        "length": 6,
+        "count": 42,
+        "probability": 0.084
+      },
+      {
+        "length": 7,
+        "count": 43,
+        "probability": 0.086
+      },
+      {
+        "length": 8,
+        "count": 58,
+        "probability": 0.116
+      },
+      {
+        "length": 9,
+        "count": 25,
+        "probability": 0.05
+      },
+      {
+        "length": 10,
+        "count": 38,
+        "probability": 0.076
+      },
+      {
+        "length": 11,
+        "count": 38,
+        "probability": 0.076
+      },
+      {
+        "length": 12,
+        "count": 37,
+        "probability": 0.074
+      },
+      {
+        "length": 13,
+        "count": 23,
+        "probability": 0.046
+      },
+      {
+        "length": 14,
+        "count": 20,
+        "probability": 0.04
+      },
+      {
+        "length": 15,
+        "count": 12,
+        "probability": 0.024
+      },
+      {
+        "length": 16,
+        "count": 10,
+        "probability": 0.02
+      },
+      {
+        "length": 17,
+        "count": 11,
+        "probability": 0.022
+      },
+      {
+        "length": 18,
+        "count": 6,
+        "probability": 0.012
+      },
+      {
+        "length": 19,
+        "count": 4,
+        "probability": 0.008
+      },
+      {
+        "length": 20,
+        "count": 4,
+        "probability": 0.008
+      },
+      {
+        "length": 21,
+        "count": 1,
+        "probability": 0.002
+      },
+      {
+        "length": 22,
+        "count": 1,
+        "probability": 0.002
+      },
+      {
+        "length": 23,
+        "count": 1,
+        "probability": 0.002
+      }
+    ],
+    "top_betweenness_centrality": [
+      {
+        "id": "HYB_MMTS",
+        "name": "HYDERABAD",
+        "layer": "mmts",
+        "betweenness": 0.256
+      },
+      {
+        "id": "Bus_Begumpet",
+        "name": "Begumpet Bus Hub",
+        "layer": "bus",
+        "betweenness": 0.2539
+      },
+      {
+        "id": "SC_MMTS",
+        "name": "SECUNDERABAD",
+        "layer": "mmts",
+        "betweenness": 0.2385
+      },
+      {
+        "id": "SJVP_MMTS",
+        "name": "SANJEEVAIAH PARK",
+        "layer": "mmts",
+        "betweenness": 0.2173
+      },
+      {
+        "id": "Bus_Jubilee_Hills",
+        "name": "Jubilee Hills Bus Hub",
+        "layer": "bus",
+        "betweenness": 0.2069
+      },
+      {
+        "id": "Bus_feeder_AME_Metro_1",
+        "name": "Bus East of AME",
+        "layer": "bus",
+        "betweenness": 0.2065
+      },
+      {
+        "id": "KCG_MMTS",
+        "name": "KACHEGUDA",
+        "layer": "mmts",
+        "betweenness": 0.1956
+      },
+      {
+        "id": "Bus_feeder_AME_Metro_3",
+        "name": "Bus West of AME",
+        "layer": "bus",
+        "betweenness": 0.1794
+      },
+      {
+        "id": "BMT_MMTS",
+        "name": "BEGUMPET",
+        "layer": "mmts",
+        "betweenness": 0.1642
+      },
+      {
+        "id": "MXT_MMTS",
+        "name": "MALAKPET",
+        "layer": "mmts",
+        "betweenness": 0.1603
+      },
+      {
+        "id": "MSB_Metro",
+        "name": "Musarambagh",
+        "layer": "metro",
+        "betweenness": 0.1283
+      },
+      {
+        "id": "DSN_Metro",
+        "name": "Dilsukh Nagar",
+        "layer": "metro",
+        "betweenness": 0.1241
+      },
+      {
+        "id": "Bus_Musheerabad",
+        "name": "Musheerabad Bus Hub",
+        "layer": "bus",
+        "betweenness": 0.1067
+      },
+      {
+        "id": "LGDH_MMTS",
+        "name": "LALAGUDA GATE",
+        "layer": "mmts",
+        "betweenness": 0.1017
+      },
+      {
+        "id": "BTNR_MMTS",
+        "name": "BHARATNAGAR",
+        "layer": "mmts",
+        "betweenness": 0.1001
+      },
+      {
+        "id": "TAR_Metro",
+        "name": "Tarnaka",
+        "layer": "metro",
+        "betweenness": 0.0974
+      },
+      {
+        "id": "Bus_HITEC_City",
+        "name": "HITEC City Bus Hub",
+        "layer": "bus",
+        "betweenness": 0.0972
+      },
+      {
+        "id": "NEM_Metro",
+        "name": "New Market",
+        "layer": "metro",
+        "betweenness": 0.0962
+      },
+      {
+        "id": "CHP_Metro",
+        "name": "Chaitanyapuri",
+        "layer": "metro",
+        "betweenness": 0.096
+      },
+      {
+        "id": "FNB_MMTS",
+        "name": "FATEHNAGAR",
+        "layer": "mmts",
+        "betweenness": 0.0949
+      }
+    ],
+    "top_closeness_centrality": [
+      {
+        "id": "SJVP_MMTS",
+        "name": "SANJEEVAIAH PARK",
+        "layer": "mmts",
+        "closeness": 0.1728
+      },
+      {
+        "id": "Bus_Begumpet",
+        "name": "Begumpet Bus Hub",
+        "layer": "bus",
+        "closeness": 0.1715
+      },
+      {
+        "id": "BMT_MMTS",
+        "name": "BEGUMPET",
+        "layer": "mmts",
+        "closeness": 0.1672
+      },
+      {
+        "id": "SC_MMTS",
+        "name": "SECUNDERABAD",
+        "layer": "mmts",
+        "closeness": 0.1645
+      },
+      {
+        "id": "JET_MMTS",
+        "name": "JAMES STREET",
+        "layer": "mmts",
+        "closeness": 0.1637
+      },
+      {
+        "id": "HYB_MMTS",
+        "name": "HYDERABAD",
+        "layer": "mmts",
+        "closeness": 0.1636
+      },
+      {
+        "id": "Bus_Musheerabad",
+        "name": "Musheerabad Bus Hub",
+        "layer": "bus",
+        "closeness": 0.1631
+      },
+      {
+        "id": "LKPL_MMTS",
+        "name": "LAKDIKAPUL",
+        "layer": "mmts",
+        "closeness": 0.1616
+      },
+      {
+        "id": "Bus_feeder_AME_Metro_1",
+        "name": "Bus East of AME",
+        "layer": "bus",
+        "closeness": 0.1613
+      },
+      {
+        "id": "Bus_feeder_SCR_Metro_3",
+        "name": "Bus West of SCR",
+        "layer": "bus",
+        "closeness": 0.1594
+      },
+      {
+        "id": "Auto_R3_16",
+        "name": "Auto Stand R3-16",
+        "layer": "auto",
+        "closeness": 0.1588
+      },
+      {
+        "id": "Bus_feeder_GNH_Metro_3",
+        "name": "Bus West of GNH",
+        "layer": "bus",
+        "closeness": 0.1584
+      },
+      {
+        "id": "Auto_R3_56",
+        "name": "Auto Stand R3-56",
+        "layer": "auto",
+        "closeness": 0.1584
+      },
+      {
+        "id": "Bus_Panjagutta",
+        "name": "Panjagutta Bus Hub",
+        "layer": "bus",
+        "closeness": 0.1574
+      },
+      {
+        "id": "Bus_feeder_PUN_Metro_0",
+        "name": "Bus North of PUN",
+        "layer": "bus",
+        "closeness": 0.1571
+      },
+      {
+        "id": "Bus_feeder_GNH_Metro_0",
+        "name": "Bus North of GNH",
+        "layer": "bus",
+        "closeness": 0.1554
+      },
+      {
+        "id": "Bus_feeder_SCR_Metro_2",
+        "name": "Bus South of SCR",
+        "layer": "bus",
+        "closeness": 0.1553
+      },
+      {
+        "id": "Bus_feeder_ASM_Metro_3",
+        "name": "Bus West of ASM",
+        "layer": "bus",
+        "closeness": 0.1551
+      },
+      {
+        "id": "Auto_R2_44",
+        "name": "Auto Stand R2-44",
+        "layer": "auto",
+        "closeness": 0.155
+      },
+      {
+        "id": "Bus_feeder_IRM_Metro_0",
+        "name": "Bus North of IRM",
+        "layer": "bus",
+        "closeness": 0.1545
+      }
+    ],
+    "assortativity_coefficient": 0.2054,
+    "resilience": {
+      "originally_connected": true,
+      "after_targeted_attack": true,
+      "after_random_failure": true,
+      "nodes_removed_percent": 5,
+      "vulnerability_score": 0
+    },
+    "small_world_coefficient": 0.0595,
+    "network_classification": {
+      "primary_type": "SMALL-WORLD",
+      "all_types": [
+        "SMALL-WORLD"
+      ],
+      "is_random": false,
+      "is_small_world": true,
+      "is_regular": false,
+      "is_complete": false,
+      "sigma": 5.561882299376001,
+      "random_test": {
+        "is_random": false,
+        "edge_probability": 0.030192328827343663,
+        "poisson_p_value": 1.6993485283497807e-07,
+        "clustering_ratio": 17.35739842762367,
+        "path_ratio": 4.053207493731107,
+        "expected_clustering": 0.030192328827343663,
+        "expected_path_length": 2.162156355247756
+      },
+      "small_world_test": {
+        "is_small_world": true,
+        "sigma": 5.561882299376001,
+        "C_real": 0.5240602809140318,
+        "C_random": 0.030192328827343663,
+        "L_real": 8.763668341708543,
+        "L_random": 2.80816805759201,
+        "clustering_ratio": 17.35739842762367,
+        "path_ratio": 3.1207777319507524
+      }
+    }
+  }
+}

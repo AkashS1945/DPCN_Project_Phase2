@@ -1,0 +1,50 @@
+
+======================================================================
+HYDERABAD METRO FARE & DISTANCE ANALYSIS REPORT
+======================================================================
+Generated: 2025-11-17 00:14:33
+
+DATASET SUMMARY
+----------------------------------------------------------------------
+Total Station Pairs Analyzed: 3,192
+Unique Stations: 57
+
+FARE ANALYSIS
+----------------------------------------------------------------------
+Minimum Fare: ₹10
+Maximum Fare: ₹50
+Average Fare: ₹32.25
+Median Fare: ₹30
+Standard Deviation: ₹11.35
+
+DISTANCE ANALYSIS
+----------------------------------------------------------------------
+Minimum Distance: 0.36 km
+Maximum Distance: 34.00 km
+Average Distance: 13.60 km
+Median Distance: 11.07 km
+Standard Deviation: 8.77 km
+
+COST EFFICIENCY
+----------------------------------------------------------------------
+Average Cost per km: ₹3.07/km
+Minimum Cost per km: ₹1.47/km
+Maximum Cost per km: ₹27.78/km
+
+TOP 5 MOST EXPENSIVE ROUTES
+----------------------------------------------------------------------
+Nampally → Dilsukhnagar: ₹50 (30.00 km)
+Nampally → Narayanguda: ₹50 (31.00 km)
+Nampally → Yousufguda: ₹50 (34.00 km)
+Nampally → Road No. 5 Jubilee Hills: ₹50 (33.00 km)
+Nampally → Survey of India: ₹50 (33.00 km)
+
+TOP 5 LONGEST ROUTES
+----------------------------------------------------------------------
+Nampally → Yousufguda: 34.00 km (₹50)
+MG Bus Station → Begumpet: 34.00 km (₹50)
+MG Bus Station → Prakash Nagar: 34.00 km (₹50)
+Osmania Medical College → Road No. 5 Jubilee Hills: 34.00 km (₹50)
+New Market → Dilsukhnagar: 34.00 km (₹50)
+
+======================================================================
